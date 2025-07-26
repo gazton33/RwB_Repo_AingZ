@@ -29,3 +29,6 @@
 
 ---
 
+
+### Última actualización
+Actualizado tras auditoría de naming y enlaces. Ver changelog.
