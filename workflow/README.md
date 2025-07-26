@@ -11,5 +11,8 @@ Repositorio de workflows operativos utilizados durante la auditoría y migració
 
 Cada archivo sigue el [naming ruleset](../template/naming/rw_b_naming_ruleset_v_2_20250727.md) y enlaza a la memoria viva en `Learn/`.
 
+Para códigos y prefijos consulta el [glosario core](../knowledges/glossary/rw_b_glosario_code_v_0_core.md).
+
+
 ## Referencias
 - [Changelog](../Learn/chglog/rw_b_chglog_v_2_20250724.md)

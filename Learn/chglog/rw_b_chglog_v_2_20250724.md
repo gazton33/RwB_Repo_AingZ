@@ -23,3 +23,8 @@ Actualizado tras auditoría de naming y enlaces. Ver changelog.
 - Se verificaron enlaces en archivos Markdown y se añadió referencia al glosario donde faltaba.
 - Se crearon READMEs para raíz y subcarpetas principales.
 - Próximas acciones: aplicar renombres de carpetas y consolidar enlaces cruzados en próximas versiones.
+
+## 2025-07-28 — Ajustes de glosario y enlaces
+- Corregidos enlaces al glosario core y al naming template en múltiples README.
+- Documentado renombre pendiente de `doc/bliblioteca_Refencia`.
+- Añadida referencia al glosario en todas las carpetas principales.

@@ -10,7 +10,7 @@ La subcarpeta Glossary centraliza **todos los glosarios, diccionarios y mappings
 ---
 
 ## Estructura y archivos
-- Cada glosario nombrado bajo el [Naming Template RwB](../../RwB_NAMING_TEMPLATE_v0.md)
+ - Cada glosario nombrado bajo el [Naming Template RwB](../../template/naming/rw_b_naming_template_v_1.md)
 - Versionado, descriptor, fecha y formato claro en el nombre del archivo
 - Pueden incluirse distintos glosarios por dominio, proyecto o disciplina
 
@@ -19,13 +19,13 @@ La subcarpeta Glossary centraliza **todos los glosarios, diccionarios y mappings
 ## Buenas prácticas y guidelines
 - Mantener siempre versión y changelog
 - Cada nuevo término debe tener código, nombre nativo y descripción breve
-- Validar siempre contra el [Glosario central](../../RwB_GLOSARIO_CODE_v0_CORE.md) antes de incorporar o editar
+ - Validar siempre contra el [Glosario central](rw_b_glosario_code_v_0_core.md) antes de incorporar o editar
 
 ---
 
 ## Referencias
-- [RwB_NAMING_TEMPLATE_v0.md](../../RwB_NAMING_TEMPLATE_v0.md)
-- [RwB_GLOSARIO_CODE_v0_CORE.md](../../RwB_GLOSARIO_CODE_v0_CORE.md)
+ - [Naming Template](../../template/naming/rw_b_naming_template_v_1.md)
+ - [rw_b_glosario_code_v_0_core.md](rw_b_glosario_code_v_0_core.md)
 - [README de carpeta Knowledges](../RwB_KNOWLEDGES_RDM_v0.md)
 
 **FIN RDM — GLOSSARY SUBFOLDER v0**
