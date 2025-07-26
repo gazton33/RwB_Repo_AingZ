@@ -10,8 +10,8 @@ Esta carpeta reúne **todo el conocimiento estructurado y vivo** del sistema RwB
 ---
 
 ## Estructura y archivos
-- Todos los archivos siguen el [Naming Template RwB](../RwB_NAMING_TEMPLATE_v0.md)
-- Subcarpetas por tipo: Glossary, Notes, Learnings, Insights, Preferences, ContextMemory, etc.
+ - Todos los archivos siguen el [Naming Template RwB](../template/naming/rw_b_naming_template_v_1.md)
+ - Subcarpetas por tipo: Glossary, Notes, Learnings, Insights, Preferences, ContextMemory, etc.
 - Incluye versiones, fecha, proyecto y descriptor en los nombres de archivo.
 
 ---
@@ -33,8 +33,8 @@ Esta carpeta reúne **todo el conocimiento estructurado y vivo** del sistema RwB
 ---
 
 ## Referencias
-- [RwB_NAMING_TEMPLATE_v0.md](../RwB_NAMING_TEMPLATE_v0.md)
-- [Glosario RwB](../RwB_GLOSARIO_CODE_v0_CORE.md)
+ - [Naming Template](../template/naming/rw_b_naming_template_v_1.md)
+ - [Glosario RwB](glossary/rw_b_glosario_code_v_0_core.md)
 
 **FIN RDM — KNOWLEDGES FOLDER v0**
 

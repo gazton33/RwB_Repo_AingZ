@@ -29,3 +29,7 @@
 
 ---
 
+
+### Última actualización
+Actualizado tras auditoría de naming y enlaces (commit ec010c1). Ver changelog.
+Consulta el [glosario core](../../knowledges/glossary/rw_b_glosario_code_v_0_core.md).

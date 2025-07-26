@@ -28,3 +28,9 @@
 
 *Fin KNS/CTX migración final legacy (2025-07-25).*
 
+
+### Actualización 2025-07-27
+Se revisó naming y enlaces. Se añadieron README y referencias cruzadas.
+
+### Actualización 2025-07-30
+Se generó el reporte de auditoría de naming y enlaces (ver `Learn/audit/rw_b_naming_enlaces_audit_v_20250730.md`).

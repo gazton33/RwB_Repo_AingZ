@@ -40,7 +40,7 @@
 - `RwB_TMPL_README_HUMAN_ONBOARD_v0.md` — Template de readme humano para onboarding.
 - `RwB_TMPL_README_AI_RULESET_v0.md` — Template de readme AI para ruleset.
 - `RwB_KNS_CTX_LSWP_v0_20250722.md` — Contexto knowledge, LSWP, versión 0.
-- `RwB_GLOSARIO_CODE_v0_CORE.md` — Glosario abreviado, versión 0, core.
+ - `rw_b_glosario_code_v_0_core.md` — Glosario abreviado, versión 0, core.
 - `RwB_TMPL_WF_MATRIX_VERSUS_v1.md` — Template de matriz versus de workflow.
 - `RwB_BK_GLOSARIO_CODE_v0.json` — Backup de glosario code, versión 0.
 
