@@ -5,4 +5,3 @@ La subcarpeta `bliblioteca_Refencia/` (renombre pendiente a `biblioteca_referenc
 Para identificar contenidos usa el [glosario core](../knowledges/glossary/rw_b_glosario_code_v_0_core.md).
 
 Contiene referencias externas y archivos importados. Revisar `bliblioteca_Refencia/` para documentación de OpenAI y otros recursos.
-

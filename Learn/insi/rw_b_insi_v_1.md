@@ -20,4 +20,5 @@
 
 
 ### Última actualización
-Actualizado tras auditoría de naming y enlaces. Ver changelog.
+
+Actualizado tras auditoría de naming y enlaces (commit ec010c1). Ver changelog.
