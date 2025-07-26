@@ -56,9 +56,9 @@
 
 | Origen (patrón)            | Tipo `TYP` | Destino → Dir/CODE    | Notas                                     |
 | -------------------------- | ---------- | --------------------- | ----------------------------------------- |
-| `Legacy/**`                | BK         | `LEGACY/ORIGINAL/`    | Conservar ZIP, CSV, imágenes crudas       |
-| `Legacy/Aud_*`             | AUDT       | `AUDT/LOTE_n/`        | Mantener árbol original + checklist       |
-| `Legacy/**/Consolidados/*` | FINAL      | `CONSOLIDADO/LOTE_n/` | Copiar tras validación │                  |
+| `LEGACY/ORIGINAL/
+| `LEGACY/ORIGINAL/
+| `LEGACY/ORIGINAL/
 | `workflow/*.md`            | WF         | `WF/`                 | Reubicar con prefijo `WF_` + versión      |
 | `scripts/**`               | SCR        | `SCR/`                | Re‑clasificar a PIPE/INTG/… según función |
 | `*_glosario*.md`           | GLOS       | `KNS/GLOS/`           | Naming `GLOS_<tema>_v#.md`                |
@@ -71,7 +71,7 @@
 ## 3 Pasos para "acomodar" el repo
 
 1. **Snapshot & branch**  – `git checkout -b refactor/infra-v1`.
-2. **Mover legacy**  – `git mv Legacy/ LEGACY/ORIGINAL/` (preserva historia).
+2. **Mover legacy**  – `git mv LEGACY/ORIGINAL/).
 3. **Crear estructura vacía**  – script:
    ```bash
    for d in AUDT CONSOLIDADO MIG/WF MIG/LOG MIG/SCRIPTS KNS/{GLOS,MEM,LEARN,NOTE} DOC/{RDM,BLPR} WF SCR/{PIPE,INTG,CMD} LOG/{CHG,ADT} PURGATORIO; do
@@ -81,7 +81,7 @@
 4. **Reubicar auditorías**  – `git mv LEGACY/ORIGINAL/Aud_* AUDT/LOTE_#/` según lote.
 5. **Reclasificar scripts**  – identificar por nombre ⇒ mover a `SCR/PIPE` (ETL), `SCR/INTG` (CI), `SCR/CMD` (bash utilitarios).
 6. **Migrar documentos**  – Workflows a `WF/`, blueprints a `DOC/BLPR/`, READMEs raíz a `DOC/RDM/`.
-7. **Actualizar enlaces**  – buscar y reemplazar rutas antiguas en Markdown (`sed -i 's|Legacy/[^)]*|...|g' *.md`).
+7. **Actualizar enlaces**  – buscar y reemplazar rutas antiguas en Markdown (`sed -i 's|LEGACY/ORIGINAL/)]*|...|g' *.md`).
 8. **Commit & PR**  – `git commit -m "infra v1: reorganización según glosario RwB"`.
 9. **Revisión cruzada**  – usar checklist de auditoría v2 antes de merge.
 
@@ -183,8 +183,8 @@ git mv docs/*blueprint*.md DOC/BLPR/
 
 ```bash
 # remplaza rutas Legacy ➜ nuevas — probar en dry‑run primero
-grep -Rl "Legacy/" --exclude-dir=.git --include=*.md \
-  | xargs sed -i.bak -E 's|Legacy/[^)]*|LEGACY/ORIGINAL/|g'
+grep -Rl "LEGACY/ORIGINAL/
+  | xargs sed -i.bak -E 's|LEGACY/ORIGINAL/)]*|LEGACY/ORIGINAL/|g'
 rm -f *.bak
 ```
 
