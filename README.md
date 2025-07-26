@@ -27,4 +27,5 @@
 | Workflows | v2 2025-07-24 |
 | Naming ruleset | v2 2025-07-27 |
 
+
 Última actualización: 2025-07-28.

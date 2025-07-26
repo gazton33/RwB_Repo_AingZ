@@ -16,7 +16,9 @@
 
 
 ### Última actualización
+
 Actualizado tras auditoría de naming y enlaces (commit ec010c1). Ver changelog.
+
 
 ## 2025-07-27 — Revisión de naming y enlaces
 - Auditados nombres de carpetas principales. Se detectaron excepciones ("Learn", "doc/bliblioteca_Refencia", carpetas con espacios) y se propusieron renombres futuros.
@@ -32,3 +34,4 @@ Actualizado tras auditoría de naming y enlaces (commit ec010c1). Ver changelog.
 - Añadidas referencias a commit ec010c1 en 'Última actualización' de la memoria viva.
 - Reconfirmados README raíz y subcarpetas con enlaces al glosario.
 - Pendiente renombrar carpetas con espacios como 'Relev ideas'.
+- Añadida referencia al glosario en todas las carpetas principales.
