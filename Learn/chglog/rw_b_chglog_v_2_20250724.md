@@ -10,3 +10,7 @@
 
 ---
 
+## 2025-07-27 — Actualización de naming
+- Creación del archivo `rw_b_naming_ruleset_v_2_20250727.md` con reglas basadas en el glosario.
+- Se prioriza el uso de códigos del glosario para todo nuevo archivo.
+
