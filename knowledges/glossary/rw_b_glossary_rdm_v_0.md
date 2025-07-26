@@ -25,8 +25,8 @@ La subcarpeta Glossary centraliza **todos los glosarios, diccionarios y mappings
 
 ## Referencias
  - [Naming Template](../../template/naming/rw_b_naming_template_v_1.md)
- - [rw_b_glosario_code_v_0_core.md](rw_b_glosario_code_v_0_core.md)
-- [README de carpeta Knowledges](../RwB_KNOWLEDGES_RDM_v0.md)
+- [rw_b_glosario_code_v_0_core.md](rw_b_glosario_code_v_0_core.md)
+- [README de carpeta Knowledges](../rw_b_knowledges_rdm_v_0.md)
 
 **FIN RDM — GLOSSARY SUBFOLDER v0**
 
