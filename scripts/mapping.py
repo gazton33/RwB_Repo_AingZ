@@ -19,7 +19,9 @@ def scan_legacy(directory: Path = LEGACY_DIR, exclude=None):
 
     files = []
     for path in directory.rglob("*"):
-        if exclude_paths and any(ep in path.resolve().parents for ep in exclude_paths):
+        if exclude_paths and any(
+            ep in path.resolve().parents for ep in exclude_paths
+        ):
             continue
         if path.is_file():
             files.append(path.as_posix())
@@ -32,7 +34,7 @@ def append_mapping(
     destination: str = "PENDIENTE",
     add_header: bool = True,
 ):
-    """Append mapping information to the registry file if not already present."""
+    """Append mapping info to the registry file if not already present."""
     existing = set()
     content = ""
     if registry.exists():
@@ -64,7 +66,9 @@ def append_mapping(
 
 
 def parse_args(args=None):
-    parser = argparse.ArgumentParser(description="Generar tabla de mapeo legacy→RwB")
+    parser = argparse.ArgumentParser(
+        description="Generar tabla de mapeo legacy→RwB"
+    )
     parser.add_argument(
         "directory",
         nargs="?",
@@ -75,7 +79,10 @@ def parse_args(args=None):
         "-o",
         "--output",
         default=str(REGISTRY_FILE),
-        help="Archivo de registro (por defecto 'registro_trazabilidad_total.md')",
+        help=(
+            "Archivo de registro (por defecto "
+            "'registro_trazabilidad_total.md')"
+        ),
     )
     parser.add_argument(
         "--exclude",
