@@ -45,3 +45,6 @@ Estandarizar la auditoría y cierre de hilos/ciclos de trabajo en proyectos IA/d
 
 ---
 
+
+## Referencias
+- [Changelog](../Learn/chglog/rw_b_chglog_v_2_20250724.md)

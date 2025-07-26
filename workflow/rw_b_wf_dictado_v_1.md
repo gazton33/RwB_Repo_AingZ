@@ -56,3 +56,6 @@ Estandarizar el procedimiento de registro, interacción y procesamiento de input
 
 ---
 
+
+## Referencias
+- [Changelog](../Learn/chglog/rw_b_chglog_v_2_20250724.md)

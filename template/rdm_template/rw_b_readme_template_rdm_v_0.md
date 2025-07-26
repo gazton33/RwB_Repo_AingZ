@@ -41,10 +41,10 @@ Pasos o comandos para instalación/configuración mínima. Referencia a dependen
 ---
 
 ## Referencias clave
-- [Glosario RwB](../RwB_GLOSARIO_CODE_v0_CORE.md)
-- [Naming Template](../RwB_NAMING_TEMPLATE_v0.md)
-- [README_HUMAN_TEMPLATE](./Readme_Template/README_HUMAN_TEMPLATE_v0.md)
-- [README_AI_TEMPLATE](./Readme_Template/README_AI_TEMPLATE_v0.md)
+ - [Glosario RwB](../../knowledges/glossary/rw_b_glosario_code_v_0_core.md)
+ - [Naming Template](../naming/rw_b_naming_template_v_1.md)
+ - [README_HUMAN_TEMPLATE](./rw_b_readme_human_template_v_0.md)
+ - [README_AI_TEMPLATE](./rw_b_readme_ai_template_v_0.md)
 
 **FIN RDM — README TEMPLATE v0**
 
