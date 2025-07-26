@@ -62,3 +62,6 @@ Implementar las lecciones aprendidas del ciclo piloto y asegurar una auditoría 
 
 ---
 
+
+## Referencias
+- [Changelog](../Learn/chglog/rw_b_chglog_v_2_20250724.md)
