@@ -1,4 +1,0 @@
-Hola, adjunto los archivos base RwB para auditoría (Prompt, Template, Glosario, Infraestructura).
-Por favor, abre y lee los adjuntos, ponete en contexto y ejecuta el prompt de auditoría detallada según las instrucciones,
-usando la estructura, naming y procedimientos definidos.
-Espero el output completo y alineado al estándar RwB, sin omitir datos ni referencias.
