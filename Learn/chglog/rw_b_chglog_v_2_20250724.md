@@ -14,3 +14,17 @@
 - Creación del archivo `rw_b_naming_ruleset_v_2_20250727.md` con reglas basadas en el glosario.
 - Se prioriza el uso de códigos del glosario para todo nuevo archivo.
 
+
+### Última actualización
+Actualizado tras auditoría de naming y enlaces. Ver changelog.
+
+## 2025-07-27 — Revisión de naming y enlaces
+- Auditados nombres de carpetas principales. Se detectaron excepciones ("Learn", "doc/bliblioteca_Refencia", carpetas con espacios) y se propusieron renombres futuros.
+- Se verificaron enlaces en archivos Markdown y se añadió referencia al glosario donde faltaba.
+- Se crearon READMEs para raíz y subcarpetas principales.
+- Próximas acciones: aplicar renombres de carpetas y consolidar enlaces cruzados en próximas versiones.
+
+## 2025-07-28 — Ajustes de glosario y enlaces
+- Corregidos enlaces al glosario core y al naming template en múltiples README.
+- Documentado renombre pendiente de `doc/bliblioteca_Refencia`.
+- Añadida referencia al glosario en todas las carpetas principales.

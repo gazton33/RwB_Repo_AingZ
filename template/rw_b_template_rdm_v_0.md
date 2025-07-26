@@ -10,7 +10,7 @@ Esta carpeta contiene **todas las plantillas (templates)** base y extendidas uti
 ---
 
 ## Estructura y archivos
-- Cada plantilla se nombra siguiendo el [RwB Naming Template](../RwB_NAMING_TEMPLATE_v0.md)
+ - Cada plantilla se nombra siguiendo el [RwB Naming Template](naming/rw_b_naming_template_v_1.md)
 - Subcarpetas por tipo: README, Doc, WF, Test, Matrix, Markdown, Blueprint, etc.
 - Todos los archivos incluyen versión, descriptor y extensión según convención RwB.
 
@@ -30,8 +30,8 @@ Esta carpeta contiene **todas las plantillas (templates)** base y extendidas uti
 ---
 
 ## Referencias
-- [RwB_NAMING_TEMPLATE_v0.md](../RwB_NAMING_TEMPLATE_v0.md)
-- [Glosario RwB](../RwB_GLOSARIO_CODE_v0_CORE.md)
+ - [Naming Template](naming/rw_b_naming_template_v_1.md)
+ - [Glosario RwB](../knowledges/glossary/rw_b_glosario_code_v_0_core.md)
 
 **FIN RDM — TEMPLATE FOLDER v0**
 
