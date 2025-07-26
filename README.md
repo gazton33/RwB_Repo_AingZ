@@ -18,6 +18,8 @@
  - [Glosario core](knowledges/glossary/rw_b_glosario_code_v_0_core.md)
  - [Naming Template](template/naming/rw_b_naming_template_v_1.md)
  - [Workflows](workflow/)
+- [Glosario core](knowledges/glossary/rw_b_glosario_code_v_0_core.md)
+- [Workflows](workflow/)
 
 ---
 
@@ -27,4 +29,7 @@
 | Workflows | v2 2025-07-24 |
 | Naming ruleset | v2 2025-07-27 |
 
+
 Última actualización: 2025-07-28.
+
+Última actualización: 2025-07-27.
