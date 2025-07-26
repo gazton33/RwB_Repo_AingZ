@@ -34,9 +34,9 @@
 ---
 
 ## Referencias
-- [RwB_GLOSARIO_CODE_v0_CORE.md](../RwB_GLOSARIO_CODE_v0_CORE.md)
-- [RwB_NAMING_TEMPLATE_v0.md](../RwB_NAMING_TEMPLATE_v0.md)
-- [README templates](../Template/README_TEMPLATE_RDM_v0.md, ../Template/Readme_Template/README_HUMAN_TEMPLATE_v0.md, ../Template/Readme_Template/README_AI_TEMPLATE_v0.md)
+ - [rw_b_glosario_code_v_0_core.md](../glossary/rw_b_glosario_code_v_0_core.md)
+ - [rw_b_naming_template_v_1.md](../../template/naming/rw_b_naming_template_v_1.md)
+ - [README templates](../../template/rdm_template/rw_b_readme_template_rdm_v_0.md, ../../template/rdm_template/rw_b_readme_human_template_v_0.md, ../../template/rdm_template/rw_b_readme_ai_template_v_0.md)
 
 **FIN KNS_CTX v0 (LSWP Task Glosario/Naming/Templates)**
 
