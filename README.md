@@ -18,7 +18,7 @@
  - [Glosario core](knowledges/glossary/rw_b_glosario_code_v_0_core.md)
  - [Naming Template](template/naming/rw_b_naming_template_v_1.md)
  - [Workflows](workflow/)
-
+- Las automatizaciones de GitHub se removieron por problemas de configuración. Los archivos en `workflow/` sirven solo como referencia.
 ---
 
 ## Versiones
