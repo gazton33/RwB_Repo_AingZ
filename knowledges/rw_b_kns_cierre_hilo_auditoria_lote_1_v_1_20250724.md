@@ -22,7 +22,7 @@
 ---
 
 ## 3. Síntesis, feedback final y continuidad
-- Para continuar, simplemente abrir las carpetas “Legacy/Original”, “Auditorías” y “Consolidados” y revisar los outputs y memoria viva generados.
+- Para continuar, simplemente abrir las carpetas “LEGACY/ORIGINAL/
 - El workflow, lessons learned y estructura permiten iterar el proceso sobre nuevos lotes sin pérdida de contexto.
 - Se recomienda, tras cada lote, repetir el ciclo: auditoría, feedback, consolidación, lessons learned, y actualizar la memoria viva.
 - Al finalizar todos los lotes, ejecutar la auditoría/fusión global y la migración final de la legacy a la infraestructura optimizada.
