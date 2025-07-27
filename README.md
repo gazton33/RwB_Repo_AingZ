@@ -6,7 +6,7 @@
 ---
 
 ## Estructura general
-- **workflow/** – Workflows operativos versionados.
+- **WF/** – Workflows operativos versionados.
 - **knowledges/** – Glosarios, contextos y KNS.
 - **Learn/** – Memoria viva (lessons, insights, trainlogs, changelogs).
 - **template/** – Plantillas de naming y README.
@@ -17,8 +17,8 @@
 ## Enlaces clave
  - [Glosario core](knowledges/glossary/rw_b_glosario_code_v_0_core.md)
  - [Naming Template](template/naming/rw_b_naming_template_v_1.md)
- - [Workflows](workflow/)
-- Las automatizaciones de GitHub se removieron por problemas de configuración. Los archivos en `workflow/` sirven solo como referencia.
+- [Workflows](WF/)
+- Las automatizaciones de GitHub se removieron por problemas de configuración. Los archivos en `WF/` sirven solo como referencia.
 ---
 
 ## Versiones

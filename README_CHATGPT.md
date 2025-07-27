@@ -5,7 +5,7 @@ Este documento resume la estructura y los principales lineamientos del repositor
 ## 1. Contexto general
 - El repositorio sigue la metodología **RAW GOLD / RawBase**.
 - La estructura se detalla en `rwb_repo_directory_plan_v_1.md` y resume las carpetas principales:
-  - `LEGACY/ORIGINAL/` – fuentes originales sin modificar.
+  - `AUDT/LOTE_X/Legacy_Original/` – fuentes originales por lote.
   - `AUDT/` – auditorías clasificadas por lote (`LOTE_1`, `LOTE_2`, ...).
   - `CONSOLIDADO/` – entregables finales validados.
   - `WF/` – workflows operativos.
@@ -26,7 +26,7 @@ Este documento resume la estructura y los principales lineamientos del repositor
 
 ## 4. Próximos pasos sugeridos
 1. Elegir el lote a trabajar y crear una nueva rama (`git checkout -b refactor/infra-v1`).
-2. Mover la carpeta `Legacy` a `LEGACY/ORIGINAL/` y generar la estructura vacía con el script del plan.
+2. Verificar que cada lote esté ubicado bajo `AUDT/LOTE_X/Legacy_Original/` y completar la estructura faltante con el script del plan.
 3. Reubicar auditorías y reclasificar scripts según las reglas de naming.
 4. Actualizar enlaces en Markdown y validar con el workflow de auditoría.
 5. Finalizar la migración con `wf_migracion_final_legacy_rw_b_v_1_20250725.md` y documentar resultados.
