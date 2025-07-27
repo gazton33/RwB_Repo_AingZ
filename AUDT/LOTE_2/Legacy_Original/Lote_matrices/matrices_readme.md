@@ -23,7 +23,7 @@ Esta carpeta contiene las **matrices de precedencia, jerarquía y features** par
 
 ## Referencias cruzadas
 - [../README.md](../README.md)
-- [../knowledges/Knowledge Base Matriz Precedencia Templates Universales Raw.md](../knowledges/Knowledge%20Base%20Matriz%20Precedencia%20Templates%20Universales%20Raw.md)
+- [../../../../knowledges/Knowledge_Base_Matriz_Precedencia_Templates_Universales_Raw.md](../../../../knowledges/Knowledge_Base_Matriz_Precedencia_Templates_Universales_Raw.md)
 - [../template/Templates Casos Uso Precedencia Infraestructura Full Custom.md](../template/Templates%20Casos%20Uso%20Precedencia%20Infraestructura%20Full%20Custom.md)
 
 ---
