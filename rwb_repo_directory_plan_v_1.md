@@ -1,6 +1,7 @@
 # RwB Repo — Propuesta de Estructura de Directorios (v1)
 
 > Basado en los workflows de auditoría v2 y migración final v1, los drafts de roadmap de consolidación (Etapas 1‑2b) y el **Glosario CODE v0**.
+> **Nota:** la estructura actual del repo ya ubica las fuentes legacy dentro de `AUDT/LOTE_X/Legacy_Original/`.
 
 ---
 
@@ -59,7 +60,7 @@
 | `LEGACY/ORIGINAL/
 | `LEGACY/ORIGINAL/
 | `LEGACY/ORIGINAL/
-| `workflow/*.md`            | WF         | `WF/`                 | Reubicar con prefijo `WF_` + versión      |
+| `workflows/*.md`           | WF         | `WF/`                 | Reubicar con prefijo `WF_` + versión      |
 | `scripts/**`               | SCR        | `SCR/`                | Re‑clasificar a PIPE/INTG/… según función |
 | `*_glosario*.md`           | GLOS       | `KNS/GLOS/`           | Naming `GLOS_<tema>_v#.md`                |
 | `*_feedback*`              | FBCK       | `KNS/LEARN/`          | Snapshot tras cada ciclo                  |
@@ -175,7 +176,7 @@ find LEGACY/ORIGINAL -type f -name "*deploy*\.sh"  -exec git mv {} SCR/INTG/ \;
 ### 7 Workflows y blueprints
 
 ```bash
-git mv workflow/*.md WF/
+git mv workflows/*.md WF/
 git mv docs/*blueprint*.md DOC/BLPR/
 ```
 
