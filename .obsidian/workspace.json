@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "994a556750d9f3cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "80d3c38916fc022a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65b23acf27bba076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README_CHATGPT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README_CHATGPT"
+            }
+          },
+          {
+            "id": "c033083250253755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "knowledge/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "4de32e847ba8b5c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MASTER_PLAN_AINGZ_INFRASTRUCTURE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MASTER_PLAN_AINGZ_INFRASTRUCTURE"
+            }
+          },
+          {
+            "id": "7704540ff5d343d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rwb_repo_directory_plan_v_1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rwb_repo_directory_plan_v_1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b99629eba2301bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "67ddb2773dff26cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a18116bec806a290",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "4f398d30e9dc27bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "799ea2836552ec45",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 404.5
+  },
+  "right": {
+    "id": "33782977d6edfdec",
+    "type": "split",
+    "children": [
+      {
+        "id": "2cd9fde1033bfd3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b17f90be7394e4ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "knowledge/Knowledge Base Matriz Precedencia Templates Universales Raw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Knowledge Base Matriz Precedencia Templates Universales Raw"
+            }
+          },
+          {
+            "id": "f1f68ce5e34c2094",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "knowledge/Knowledge Base Matriz Precedencia Templates Universales Raw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Knowledge Base Matriz Precedencia Templates Universales Raw"
+            }
+          },
+          {
+            "id": "fac223c787f9efc3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "dfe022d1a9ef8e9a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "knowledge/Knowledge Base Matriz Precedencia Templates Universales Raw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Knowledge Base Matriz Precedencia Templates Universales Raw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "a18116bec806a290",
+  "lastOpenFiles": [
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_t_2_2_raw_gold_matriz_historiales_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_matriz_memorias_historiales_chatgpt_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_plantilla_snapshot_memoria_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_leccion_aprendida_upgrade_memorias_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_ejemplo_integracion_memoria_feedback_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_checklist_testing_memorias_historiales_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_matrices_readme_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_control_cruce_matriz_raw_vs_extendida_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_audt_control_trazabilidad_fuentes_chatgpt_workflow_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx/rw_b_mapeo_global_matrices_legacy_lote_2_completo_20250725.md",
+    "AUDT/LOTE_2/Auditorias/mtx",
+    "AUDT/LOTE_2/Auditorias/Nueva carpeta",
+    "AUDT/LOTE_2/Auditorias/Tmpl/rw_b_resumen_auditoria_templates_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/Tmpl/rw_b_audt_template_prompt_custom_gpt_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/Tmpl/rw_b_audt_template_casos_uso_precedencia_infra_full_custom_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/Tmpl",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_resumen_auditoria_kns_matrices_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_readme_explicativo_matriz_features_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_profundizacion_matriz_precedencia_features_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_matriz_extendida_features_chatgpt_workflow_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_matriz_raw_features_chatgpt_workflow_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_kns_t_3_raw_gold_matriz_final_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_kns_readme_knowledge_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_kns_memorias_feedback_reglas_oro_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_kns_gz_project_insights_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_audt_kns_matriz_precedencia_templates_lote_2_20250725.md",
+    "AUDT/LOTE_2/Auditorias/KNS/rw_b_mapeo_global_kns_lote_2_20250725.md",
+    "AUDT/LOTE_2/Legacy_Original/Lote_knowledge/mtx/profundizacion_matriz_precedencia_instrucciones_y_features_aing_z_repo.md",
+    "AUDT/LOTE_2/Legacy_Original/Lote_knowledge/mtx/matriz_raw_features_chatgpt_workflow.md",
+    "AUDT/LOTE_2/Legacy_Original/Lote_knowledge/mtx",
+    "AUDT/LOTE_2/Legacy_Original/Lote_knowledge/Nueva carpeta",
+    "AUDT/LOTE_2/Legacy_Original/Master Plan Aingz Infrastructure.pdf",
+    "AUDT/LOTE_2/Auditorias/KNS",
+    "AUDT/LOTE_2/Auditorias/WF",
+    "AUDT/LOTE_2/Auditorias",
+    "AUDT/LOTE_2/Nueva carpeta"
+  ]
+}
