@@ -19,6 +19,6 @@
 
 **Referencias internas:**
 
-- [Matriz de features](../knowledge/matriz_extendida_features_chatgpt_workflow.md)
-- [Croquis workflow](../docs/croquis-mapeo-features-prompts.md)
+- [Matriz de features](../knowledges/matriz_extendida_features_chatgpt_workflow.md)
+- [Croquis workflow](../doc/croquis-mapeo-features-prompts.md)
 

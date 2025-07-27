@@ -17,11 +17,11 @@ Documentar y orquestar la infraestructura modular, versionable y auditable del p
 ---
 
 ## 3. Barrido Literal y Mapping Interno
-- Estructura por carpetas: `/knowledge/`, `/matrices/`, `/workflows/`, `/scripts/`, `/logs/`, `/docs/`, `/backups/`, `/notebooks/`, raíz.
+- Estructura por carpetas:../knowledges/`, `/matrices/`, `/WF/`, `/scripts/`, `/logs/`, `/doc/`, `/backups/`, `/notebooks/`, raíz.
 - Principios: modularidad, versionado, automatización, documentación viva, integración multi-cloud/repo, trazabilidad.
 - Onboarding: leer README, usar plantillas, actualizar knowledge/matrices, documentar mejoras, automatizar validación/backups.
 - Automatización y coverage: sync, backup, control de versiones, logs, reporting; coverage de archivos críticos; mantenimiento continuo de README y knowledge.
-- Siguientes pasos: completar ejemplos y templates, integrar scripts, documentar lecciones en `/knowledge/` y matrices.
+- Siguientes pasos: completar ejemplos y templates, integrar scripts, documentar lecciones en../knowledges/` y matrices.
 - Toda mejora/error debe reflejarse aquí y en la knowledge base.
 
 ---
@@ -36,7 +36,7 @@ Documentar y orquestar la infraestructura modular, versionable y auditable del p
 ## 5. Observaciones/Gaps
 - No se detectan omisiones ni inconsistencias en el coverage del onboarding ni en la modularidad.
 - Checklist, documentación y references correctas.
-- Se sugiere: mantener actualización cruzada en `/knowledge/` y `/matrices/` a cada release.
+- Se sugiere: mantener actualización cruzada en../knowledges/` y `/matrices/` a cada release.
 
 ---
 

@@ -20,7 +20,7 @@
 - [matriz_extendida_features_chatgpt_workflow.md](matriz_extendida_features_chatgpt_workflow.md)
 - [knowledge_gz_project_insights.md](knowledge_gz_project_insights.md)
 - [../matrices/control_trazabilidad_fuentes_chatgpt_workflow.md](../matrices/control_trazabilidad_fuentes_chatgpt_workflow.md)
-- [../docs/croquis-mapeo-features-prompts.md](../docs/croquis-mapeo-features-prompts.md)
+- [../doc/croquis-mapeo-features-prompts.md](../doc/croquis-mapeo-features-prompts.md)
 
 ---
 

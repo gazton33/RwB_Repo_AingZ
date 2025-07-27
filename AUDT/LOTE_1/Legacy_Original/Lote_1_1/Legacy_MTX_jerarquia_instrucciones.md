@@ -67,7 +67,7 @@ graph TD
 - [README master\_plan](README.md)
 - [master\_plan\_aingz\_infrastructure.md](master_plan_aingz_infrastructure.md)
 - [matriz\_extendida\_features\_chatgpt\_workflow.md](matriz_extendida_features_chatgpt_workflow.md)
-- [docs/croquis-mapeo-features-prompts.md](docs/croquis-mapeo-features-prompts.md)
+- [doc/croquis-mapeo-features-prompts.md](doc/croquis-mapeo-features-prompts.md)
 - [matrices/control\_trazabilidad\_fuentes\_chatgpt\_workflow.md](matrices/control_trazabilidad_fuentes_chatgpt_workflow.md)
 
 ---

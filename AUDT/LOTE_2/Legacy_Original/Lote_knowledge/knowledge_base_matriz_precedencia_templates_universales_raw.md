@@ -69,7 +69,7 @@
 # Personalización Global (fragmento)
 - Idioma por defecto: Español
 - Límites de privacidad: ON
-- Workflow universal: [workflow_analisis_estandar.md](./workflows/universales/workflow_analisis_estandar.md)
+- Workflow universal: [workflow_analisis_estandar.md](./WF/universales/workflow_analisis_estandar.md)
 - Regla: “Por defecto, aplica el workflow universal salvo indicación contraria.”
 ```
 

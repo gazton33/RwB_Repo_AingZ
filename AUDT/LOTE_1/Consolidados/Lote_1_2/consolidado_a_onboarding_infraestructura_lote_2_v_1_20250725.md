@@ -11,17 +11,17 @@ Centralizar el onboarding, la estructura modular y el master plan de la infraest
 
 ## 2. Estructura y referencias clave
 - **README central:** Entry point para cualquier usuario/AI, referencia obligatoria a master plan y onboarding.
-- **Infraestructura modular:** Detalle de carpetas, propósito, versionado y trazabilidad: `/knowledge/`, `/matrices/`, `/workflows/`, `/scripts/`, `/logs/`, `/docs/`, `/backups/`, `/notebooks/`.
+- **Infraestructura modular:** Detalle de carpetas, propósito, versionado y trazabilidad:../knowledges/`, `/matrices/`, `/WF/`, `/scripts/`, `/logs/`, `/doc/`, `/backups/`, `/notebooks/`.
 - **Principios operativos:** Modularidad, versionado, automatización, documentación viva, integración multi-cloud, onboarding continuo.
 - **Recomendaciones:**
   - Empezar siempre por este README y el master plan.
   - Actualizar la knowledge base y este README ante cualquier avance estructural.
   - Documentar lessons learned, feedback y cambios críticos en knowledge base.
-  - Checklist y templates de onboarding incluidos en `/matrices/` y `/docs/`.
+  - Checklist y templates de onboarding incluidos en `/matrices/` y `/doc/`.
 - **Referencias cruzadas:**
   - master_plan_aingz_infrastructure.md
-  - knowledge/knowledge_gz_project_insights.md
-  - docs/croquis-mapeo-features-prompts.md
+  - knowled../knowledges_gz_project_insights.md
+  - doc/croquis-mapeo-features-prompts.md
   - matrices/control_trazabilidad_fuentes_chatgpt_workflow.md
 
 ---

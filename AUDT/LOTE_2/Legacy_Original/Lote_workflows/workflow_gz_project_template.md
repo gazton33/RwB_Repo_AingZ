@@ -36,9 +36,9 @@ Workflow maestro para construcción y control de sistemas IA documentados, modul
 - **No:** Publicar cambios sin validación, perder trazabilidad de fuentes, cambiar naming sin control, descuidar documentación viva.
 
 ## 4. Referencias y dependencias
-- [matriz_extendida_features_chatgpt_workflow.md](../knowledge/matriz_extendida_features_chatgpt_workflow.md)
-- [knowledge_gz_project_insights.md](../knowledge/knowledge_gz_project_insights.md)
-- [croquis-mapeo-features-prompts.md](../docs/croquis-mapeo-features-prompts.md)
+- [matriz_extendida_features_chatgpt_workflow.md](../knowledges/matriz_extendida_features_chatgpt_workflow.md)
+- [knowledge_gz_project_insights.md](../knowledges/knowledge_gz_project_insights.md)
+- [croquis-mapeo-features-prompts.md](../doc/croquis-mapeo-features-prompts.md)
 - [control-cruce-matriz-raw-vs-extendida.md](../matrices/control-cruce-matriz-raw-vs-extendida.md)
 
 ---

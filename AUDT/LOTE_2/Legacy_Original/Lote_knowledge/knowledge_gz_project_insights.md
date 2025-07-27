@@ -32,8 +32,8 @@
 - Usar README y knowledge base como puente con nuevos colaboradores.
 
 ## 5. Referencias clave
-- [matriz_extendida_features_chatgpt_workflow.md](../knowledge/matriz_extendida_features_chatgpt_workflow.md)
+- [matriz_extendida_features_chatgpt_workflow.md](../knowledges/matriz_extendida_features_chatgpt_workflow.md)
 - [control_trazabilidad_fuentes_chatgpt_workflow.md](../matrices/control_trazabilidad_fuentes_chatgpt_workflow.md)
-- [croquis-mapeo-features-prompts.md](../docs/croquis-mapeo-features-prompts.md)
+- [croquis-mapeo-features-prompts.md](../doc/croquis-mapeo-features-prompts.md)
 - [control-cruce-matriz-raw-vs-extendida.md](../matrices/control-cruce-matriz-raw-vs-extendida.md)
 

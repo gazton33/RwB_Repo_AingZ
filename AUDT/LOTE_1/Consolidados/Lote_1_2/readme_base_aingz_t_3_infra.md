@@ -6,12 +6,12 @@ Este repositorio documenta y orquesta la infraestructura modular, versionable y 
 ---
 
 ## Estructura General
-- `/knowledge/` — Aprendizajes, insights, registro de decisiones y feedback.
+-../knowledges/` — Aprendizajes, insights, registro de decisiones y feedback.
 - `/matrices/` — Matrices de features, coverage, auditoría y control de cambios.
-- `/workflows/` — Templates, diagramas, ejemplos de integración y flujos operativos.
+- `/WF/` — Templates, diagramas, ejemplos de integración y flujos operativos.
 - `/scripts/` — Automatización, integración con APIs externas, backups, sync y análisis IA.
 - `/logs/` — Registros de cambios, errores, auditoría y troubleshooting.
-- `/docs/` — Onboarding, croquis, mapeos visuales y documentación extendida.
+- `/doc/` — Onboarding, croquis, mapeos visuales y documentación extendida.
 - `/` (raíz) — README central, masterplan, manifiestos, configuraciones y control de versiones.
 - `/backups/` — Copias de seguridad automáticas/manuales (opcional).
 - `/notebooks/` — Prototipos y experimentos IA/ML (opcional).
@@ -47,7 +47,7 @@ Este repositorio documenta y orquesta la infraestructura modular, versionable y 
 ## Siguientes pasos
 - Completar ejemplos reales y templates para cada carpeta/área.
 - Integrar primeros scripts de sync y automatización multi-cloud.
-- Documentar primeras lecciones en `/knowledge/` y actualizar matrices.
+- Documentar primeras lecciones en../knowledges/` y actualizar matrices.
 
 ---
 

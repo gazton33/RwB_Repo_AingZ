@@ -20,7 +20,7 @@ Documentar el barrido y mapeo RAW de la estructura, archivos y coverage del lega
 - Presenta árbol literal de carpetas/archivos del ZIP.
 - Matching frente a la matriz RAW GOLD: identifica componentes presentes/faltantes, ubica archivos legacy.
 - Checklist de coverage: ejemplos reales, templates, docs y scripts ausentes o incompletos.
-- Gaps: ausencia de carpetas `/knowledge/`, `/matrices/`, `/workflows/`, `/scripts/`, `/logs/`, `/config/`, `/backups/`, `/notebooks/`.
+- Gaps: ausencia de carpetas../knowledges/`, `/matrices/`, `/WF/`, `/scripts/`, `/logs/`, `/config/`, `/backups/`, `/notebooks/`.
 - Recomendaciones: crear estructura modular, generar README y templates por carpeta, iniciar logging/automatización, priorizar onboarding/testing.
 
 ---

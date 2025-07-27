@@ -30,7 +30,7 @@
 ## 3. Observaciones/gaps
 - Todos cumplen naming, referencia y scope según los criterios del ciclo anterior (Lote 1).
 - No se detectan duplicidades ni gaps en la documentación base; las referencias y flujos están alineados al master plan.
-- Reforzar, en siguientes entregas, la actualización constante de `/knowledge/` y cross-linking en releases mayores.
+- Reforzar, en siguientes entregas, la actualización constante de../knowledges/` y cross-linking en releases mayores.
 
 ---
 

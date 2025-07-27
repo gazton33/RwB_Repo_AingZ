@@ -16,7 +16,7 @@
 ### Batch 1 (README y matrices core)
 - Todas las auditorías cumplen naming, propósito, barrido literal y checklist visible.
 - No se detectan gaps críticos ni omisiones en modularidad, versionado, onboarding ni compliance.
-- Se refuerza la actualización cruzada y visibilidad en `/knowledge/` y `/matrices/`.
+- Se refuerza la actualización cruzada y visibilidad en../knowledges/` y `/matrices/`.
 - Sugerencia: mejorar la explicitación de feedback/documentación incremental por release.
 
 ### Batch 2 (canvas, matriz raw gold, scaffolds)

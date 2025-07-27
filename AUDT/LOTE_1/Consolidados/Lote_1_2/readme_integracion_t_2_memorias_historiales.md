@@ -25,7 +25,7 @@ Este README centraliza **todo el contexto, metodología, arquitectura y reglas**
 - `/matrices/checklist_testing_memorias_historiales.md` — Checklist para testing y control de cambios
 - `/matrices/leccion_aprendida_upgrade_memorias.md` — Ejemplo de lección aprendida/jurisprudencia
 - `/matrices/t_2.2_raw_gold_matriz_historiales.md` — Roadmap de automatización, reglas y consolidación entre hilos
-- `/knowledge/knowledge_memorias_feedback_reglas_oro.md` — Knowledge base con aprendizajes, comentarios iterativos y reglas de oro
+-../knowledges/knowledge_memorias_feedback_reglas_oro.md` — Knowledge base con aprendizajes, comentarios iterativos y reglas de oro
 
 > **Todos estos archivos deben almacenarse y actualizarse en **``** (y **``** para lecciones) para trazabilidad y referencia centralizada.**
 
