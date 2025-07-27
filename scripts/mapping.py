@@ -3,7 +3,17 @@ import datetime
 from pathlib import Path
 
 # Adapted from Legacy/Aud_3/Legacy_Original/Lote_scripts/mapping.py
-LEGACY_DIR = Path('Legacy')
+#
+"""Utilities to generate mapping tables for legacy files.
+
+Expected repository layout::
+
+    AUDT/
+      LOTE_1/
+        Legacy_Original/  # default scanned by this script
+"""
+
+LEGACY_DIR = Path('AUDT/LOTE_1/Legacy_Original')
 REGISTRY_FILE = Path('registro_trazabilidad_total.md')
 
 
@@ -73,7 +83,7 @@ def parse_args(args=None):
         "directory",
         nargs="?",
         default=str(LEGACY_DIR),
-        help="Carpeta a escanear (por defecto 'Legacy/')",
+        help="Carpeta a escanear (por defecto 'AUDT/LOTE_1/Legacy_Original/')",
     )
     parser.add_argument(
         "-o",
