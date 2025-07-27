@@ -26,7 +26,7 @@ Unificar la documentación de matrices, tipos de memoria/historial y templates p
 ## 3. Templates y Referencias
 - Incluir matriz en `/matrices/` como entry point de coverage.
 - Checklist y lessons learned ligados a cada área.
-- Templates y ejemplos vivos vinculados a `/knowledge/`, `/workflows/`, `/scripts/`, `/logs/`.
+- Templates y ejemplos vivos vinculados a../knowledges/`, `/WF/`, `/scripts/`, `/logs/`.
 
 ---
 

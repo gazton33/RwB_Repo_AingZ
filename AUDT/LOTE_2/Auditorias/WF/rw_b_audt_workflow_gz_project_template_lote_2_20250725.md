@@ -21,7 +21,7 @@ Auditoría de la plantilla “workflow GZ + ChatGPT” para sistemas IA document
 ## 3. Análisis de integración y mejoras
 - Este workflow es “entrypoint” para proyectos IA/ChatGPT personalizados, debe tener rutas fijas y triggers para upgrades/versiones.
 - Propuesta: Sumar sección para integración automatizada con repositorios y pipelines de CI/CD.
-- Sugerir subdirectorio “workflows/templates/gz_project” y triggers para logging de upgrades.
+- Sugerir subdirectorio “workflows/template/gz_project” y triggers para logging de upgrades.
 
 ---
 

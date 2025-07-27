@@ -12,9 +12,9 @@ Este repositorio implementa una infraestructura modular, trazable y versionable 
 ## Estructura de carpetas
 
 - `/matrices/` — Matrices de precedencia, jerarquías y features. Uso y control central de lógica de input/output.
-- `/knowledge/` — Knowledge base, templates universales, lecciones aprendidas y profundización de features.
-- `/templates/` — Plantillas y flujos para casos de uso (personalización global, proyectos, GPTs).
-- `/docs/` — Diagramas visuales, ejemplos, FAQs, documentación viva y operativa.
+-../knowledges/` — Knowledge base, templates universales, lecciones aprendidas y profundización de features.
+- `/template/` — Plantillas y flujos para casos de uso (personalización global, proyectos, GPTs).
+- `/doc/` — Diagramas visuales, ejemplos, FAQs, documentación viva y operativa.
 
 ---
 
@@ -23,13 +23,13 @@ Este repositorio implementa una infraestructura modular, trazable y versionable 
 - `matrices/Matriz Precedencia Instrucciones Full Custom Infraestructura.md`: Matriz de jerarquía y features para todo el sistema.
 - `knowledge/Knowledge Base Matriz Precedencia Templates Universales Raw.md`: Núcleo de referencia y relación de precedencia, templates y posibilidades de input/output.
 - `templates/Templates Casos Uso Precedencia Infraestructura Full Custom.md`: Plantillas base para instanciar entornos y flujos.
-- `docs/Mapa Jerarquía Instrucciones - Aing Z Repo (visual + Markdown).md`: Visual de jerarquía y precedencia de instrucciones.
+- `doc/Mapa Jerarquía Instrucciones - Aing Z Repo (visual + Markdown).md`: Visual de jerarquía y precedencia de instrucciones.
 
 ---
 
 ## Reglas y trazabilidad
 - Todos los archivos y templates versionados llevan fecha, autor y referencias cruzadas.
-- Cualquier override, excepción o aprendizaje debe documentarse en `/knowledge/` y quedar linkeado en los READMEs.
+- Cualquier override, excepción o aprendizaje debe documentarse en../knowledges/` y quedar linkeado en los READMEs.
 - Los outputs relevantes deben exportarse/versionarse en la knowledge base para mantener integridad y continuidad.
 
 ---
@@ -39,7 +39,7 @@ Este repositorio implementa una infraestructura modular, trazable y versionable 
 - [knowledge/Knowledge Base Matriz Precedencia Templates Universales Raw.md](knowledge/Knowledge%20Base%20Matriz%20Precedencia%20Templates%20Universales%20Raw.md)
 - [matrices/Matriz Precedencia Instrucciones Full Custom Infraestructura.md](matrices/Matriz%20Precedencia%20Instrucciones%20Full%20Custom%20Infraestructura.md)
 - [templates/Templates Casos Uso Precedencia Infraestructura Full Custom.md](templates/Templates%20Casos%20Uso%20Precedencia%20Infraestructura%20Full%20Custom.md)
-- [docs/Mapa Jerarquía Instrucciones - Aing Z Repo (visual + Markdown).md](docs/Mapa%20Jerarqu%C3%ADa%20Instrucciones%20-%20Aing%20Z%20Repo%20(visual%20%2B%20Markdown).md)
+- [doc/Mapa Jerarquía Instrucciones - Aing Z Repo (visual + Markdown).md](doc/Mapa%20Jerarqu%C3%ADa%20Instrucciones%20-%20Aing%20Z%20Repo%20(visual%20%2B%20Markdown).md)
 
 ---
 

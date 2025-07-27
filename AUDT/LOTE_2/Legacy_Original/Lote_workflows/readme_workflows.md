@@ -22,8 +22,8 @@
 
 ## Referencias
 - [workflow_gz_project_template.md](workflow_gz_project_template.md)
-- [../knowledge/knowledge_gz_project_insights.md](../knowledge/knowledge_gz_project_insights.md)
-- [../docs/croquis-mapeo-features-prompts.md](../docs/croquis-mapeo-features-prompts.md)
+- [../knowledges/knowledge_gz_project_insights.md](../knowledges/knowledge_gz_project_insights.md)
+- [../doc/croquis-mapeo-features-prompts.md](../doc/croquis-mapeo-features-prompts.md)
 
 ---
 

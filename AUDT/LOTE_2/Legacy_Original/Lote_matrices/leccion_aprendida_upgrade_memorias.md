@@ -35,7 +35,7 @@ En la revisión y actualización del sistema de memorias persistentes, se detect
 - Mantener este procedimiento como regla de oro para ciclos futuros (referencia de “mejor práctica”).
 - Revisar la checklist cada trimestre y actualizarla según necesidades o errores detectados.
 - Usar esta lección aprendida como template/base para nuevas áreas o upgrades de matriz.
-- Documentar en `/knowledge/knowledge_gz_project_insights.md` toda lección relevante y referenciar desde README/master plan.
+- Documentar en../knowledges/knowledge_gz_project_insights.md` toda lección relevante y referenciar desde README/master plan.
 
 ---
 

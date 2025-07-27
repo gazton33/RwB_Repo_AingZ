@@ -27,7 +27,7 @@ Auditoría de la matriz de precedencia de instrucciones full custom infra: bluep
 ## 4. Checklist de cobertura y reproducibilidad (visual-friendly)
 - Tabla de precedencia y reglas extraídas: OK
 - Lógica de anulación/herencia, triggers y troubleshooting: OK
-- Referencias cruzadas a matrices/templates/logs: OK
+- Referencias cruzadas a matrices/template/logs: OK
 - Legacy original referenciado (matriz_precedencia_instrucciones_full_custom_infraestructura.md): OK
 - Auto-reproducible con legacy accesible: OK
 

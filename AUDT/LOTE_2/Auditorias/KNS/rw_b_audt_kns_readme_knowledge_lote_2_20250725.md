@@ -3,7 +3,7 @@
 ---
 
 ## 1. Propósito/contexto
-Auditoría del README de la carpeta /knowledge/: guía de uso, referencias cruzadas y mejores prácticas para la administración de la KB en el stack AingZ/ChatGPT.
+Auditoría del README de la carpet../knowledges/: guía de uso, referencias cruzadas y mejores prácticas para la administración de la KB en el stack AingZ/ChatGPT.
 
 ---
 

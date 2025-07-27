@@ -2,6 +2,7 @@
 
 > Estructura base del repositorio auditado y migrado bajo las reglas **RawBase**.
 > Este proyecto reúne workflows, knowledges y documentación usada durante la auditoría legacy.
+> Las carpetas se consolidaron para evitar duplicados: todo el material de conocimiento vive en `knowledges/` y las plantillas en `template/`.
 
 ---
 

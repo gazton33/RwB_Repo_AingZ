@@ -14,7 +14,7 @@ Configurar reglas, templates y workflows universales que rijan todas las sesione
 # Personalización Global
 - Idioma predeterminado: Español
 - Privacidad: ON
-- Workflow universal: [workflow_analisis_estandar.md](./workflows/universales/workflow_analisis_estandar.md)
+- Workflow universal: [workflow_analisis_estandar.md](./WF/universales/workflow_analisis_estandar.md)
 - Plantillas recomendadas:
     - Respuesta estándar: [template_respuesta.md](./plantillas/template_respuesta.md)
     - Evaluación: [template_eval.md](./plantillas/template_eval.md)
@@ -48,7 +48,7 @@ Gestionar reglas, objetivos y workflows específicos por proyecto, habilitando p
 - Objetivo: [Definir]
 - Metodología: [RAW/Específico]
 - Templates/workflows aplicados:
-    - Análisis: [workflow_analisis_X.md](../workflows/analisis_X.md)
+    - Análisis: [workflow_analisis_X.md](../WF/analisis_X.md)
     - Output: [template_output_X.md](../plantillas/template_output_X.md)
 - Referencias: [README del proyecto](./README.md), knowledge base, matriz de features.
 - Checkpoints/versionado: Activado (DATA-02, CPV).
@@ -81,7 +81,7 @@ Definir lógica, skills, límites y plantillas para un asistente IA particular, 
 - Tono y voz: [Formal/Informal/Técnico/etc]
 - Templates y workflows asignados:
     - Respuestas técnicas: [template_tecnico.md](../plantillas/template_tecnico.md)
-    - Procedimientos: [workflow_operativo.md](../workflows/workflow_operativo.md)
+    - Procedimientos: [workflow_operativo.md](../WF/workflow_operativo.md)
 - Integraciones: [APIs, herramientas externas]
 - Límites: [Ética, privacidad, contexto permitido]
 - Logging de actividad y feedback: ON

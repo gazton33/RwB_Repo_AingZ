@@ -17,7 +17,7 @@ Documentar la MATRIZ RAW GOLD para gestión integral de archivos, carpetas y pla
 ---
 
 ## 3. Barrido Literal y Mapping Interno
-- Mapea cada componente: insights/knowledge, matrices, workflows, scripts, logs, docs, backups, notebooks, config/env y raíz.
+- Mapea cada componente: insigh../knowledges, matrices, workflows, scripts, logs, docs, backups, notebooks, config/env y raíz.
 - Por cada uno define: tipo, función, plataforma, APIs, automatización, casos de uso, coverage y gaps.
 - Presenta checklist de coverage integrado y recomendaciones finales.
 - Expone gaps: faltan ejemplos reales, templates base, logs automáticos y scripts dedicados.

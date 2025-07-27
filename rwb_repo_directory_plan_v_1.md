@@ -177,7 +177,7 @@ find LEGACY/ORIGINAL -type f -name "*deploy*\.sh"  -exec git mv {} SCR/INTG/ \;
 
 ```bash
 git mv workflows/*.md WF/
-git mv docs/*blueprint*.md DOC/BLPR/
+git mv doc/*blueprint*.md DOC/BLPR/
 ```
 
 ### 8 Actualizar rutas en Markdown

@@ -24,7 +24,7 @@
             - `readme_cierre_t_1_raw_gold.md`
             - `readme_cierre_t_3_raw_gold.md`
             - `t_2_raw_gold_matriz_historiales.md`
-        - `docs/`
+        - `doc/`
             - `ChatGPT Image 13 jul 2025, 22_35_55.png`
             - `ChatGPT Image 14 jul 2025, 10_08_00.png`
             - `croquis_mapeo_features_prompts.md`
@@ -40,19 +40,19 @@
 
 | **Componente RAW GOLD** | **¿Presente?** | **Ubicación/Archivo Legacy**         | **Notas y gaps**                                   |
 |------------------------|:--------------:|--------------------------------------|----------------------------------------------------|
-| /knowledge/            |                |                                      |                                                    |
+../knowledges/            |                |                                      |                                                    |
 | /matrices/             |                |                                      |                                                    |
-| /workflows/            |                |                                      |                                                    |
+| /WF/            |                |                                      |                                                    |
 | /scripts/              |                |                                      |                                                    |
 | /logs/                 |                |                                      |                                                    |
-| /docs/                 |     ✔️         | docs/                                | Croquis, diagramas, onboarding presentes.           |
+| /doc/                 |     ✔️         | doc/                                | Croquis, diagramas, onboarding presentes.           |
 | / (README raíz)        |     ✔️         | README.md                            | Existe, falta README por subcarpeta.                |
 | /config/ (.env, .json) |                |                                      |                                                    |
 | /backups/              |                |                                      |                                                    |
 | /notebooks/            |                |                                      |                                                    |
 
 ## 3. Coverage y gaps detectados
-- **Ejemplos reales:** Faltan carpetas tipo `/knowledge/`, `/matrices/`, `/workflows/`, `/scripts/`, `/logs/`, `/config/`, `/backups/`, `/notebooks/` (no están como carpetas, aunque hay archivos relacionados distribuidos en raíz y `docs/`).
+- **Ejemplos reales:** Faltan carpetas tipo../knowledges/`, `/matrices/`, `/WF/`, `/scripts/`, `/logs/`, `/config/`, `/backups/`, `/notebooks/` (no están como carpetas, aunque hay archivos relacionados distribuidos en raíz y `doc/`).
 - **Plantillas base:** Solo parcial, plantillas de cierre (`plantilla_readme_cierre_hilo_raw_gold.md`).
 - **Documentación y naming:** Documentación central sólida, faltan convenciones y README por carpeta.
 - **Automatización y scripts:** No se detectan scripts de automatización, sync o backup en carpetas dedicadas.

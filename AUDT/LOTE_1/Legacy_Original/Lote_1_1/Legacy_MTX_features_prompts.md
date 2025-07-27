@@ -17,7 +17,7 @@
 
 ## B. CLASES DE FEATURES Y “DOMICILIO ÓPTIMO”
 
-| Clase       | ¿En prompt siempre?  | ¿Periódico/manual?      | ¿Archivo/knowledge?    | ¿Acción/script?    | Frecuencia recomendada           | Ejemplos típicos                          |
+| Clase       | ¿En prompt siempre?  | ¿Periódico/manual?      | ¿Archi../knowledges?    | ¿Acción/script?    | Frecuencia recomendada           | Ejemplos típicos                          |
 | ----------- | -------------------- | ----------------------- | ---------------------- | ------------------ | -------------------------------- | ----------------------------------------- |
 | CORE        | Solo inicialización  | ⚠️ Sí, monitor/autotest | ✔️ Docs y ejemplos     | ✔️ Sí              | Diaria (logs), semanal (actions) | Interpreter, Data analysis, Browsing      |
 | OUTPUT      | ✔️ Siempre           | ⚠️ Depende workflow     | ✔️ Plantillas          | ⚠️ Export/batch    | Constante/interacción            | Output dirigido, nivel detalle, modular   |

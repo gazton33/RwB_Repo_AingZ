@@ -10,7 +10,7 @@
   - `reporte_hw_gz_n56vz_2025-07-15_19-51.csv` y `.md`: specs completas y lista de programas.
   - `gz_n_56_vz_tech.md`: resumen técnico y enlaces a los informes anteriores.
 - **Imágenes / multimedia:**
-  - Ej: `ChatGPT Image 13 jul 2025, 22_35_55.png`, almacenadas/previamente en `docs/` (algunas eliminadas vía script de cierre).
+  - Ej: `ChatGPT Image 13 jul 2025, 22_35_55.png`, almacenadas/previamente en `doc/` (algunas eliminadas vía script de cierre).
 - **Plantillas y scripts:**
   - `rawgold_scaffold_readme.md` y `rawgold_scaffold.py`: describen el andamio RAW GOLD, su generación y estructura esperada.
 

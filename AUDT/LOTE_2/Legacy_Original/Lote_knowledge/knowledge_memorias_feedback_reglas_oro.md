@@ -29,7 +29,7 @@
 - Nunca actualizar una matriz o memoria crítica sin referenciar la versión previa y dejar changelog detallado.
 - Toda estructura (tabla, plantilla, checklist) debe ser portable y entendible por cualquier colaborador, sin ambigüedades.
 - Siempre priorizar plantillas editables y diagramas exportables.
-- Las decisiones de arquitectura deben quedar registradas en `/knowledge/`, con fecha y responsable.
+- Las decisiones de arquitectura deben quedar registradas en../knowledges/`, con fecha y responsable.
 
 ---
 
@@ -48,5 +48,5 @@
 - Revisar y mejorar las plantillas y checklists cada trimestre, iterando sobre la experiencia real de uso.
 - Automatizar el backup/snapshot de la carpeta `/matrices/` para minimizar riesgos.
 - Realizar sesiones de capacitación cada vez que haya upgrades en la matriz, las reglas o la infraestructura.
-- Documentar en `/knowledge/` toda lección aprendida relevante, enlazando a README, matriz y master plan.
+- Documentar en../knowledges/` toda lección aprendida relevante, enlazando a README, matriz y master plan.
 

@@ -25,7 +25,7 @@ AingZ_Repo_RAW_GOLD/
 ├── logs/
 │   └── logs_demo.log
 │
-├── docs/
+├── doc/
 │   ├── croquis_demo.md
 │   ├── imagen_demo.png
 │   └── README.md
