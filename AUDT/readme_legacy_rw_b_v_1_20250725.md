@@ -58,3 +58,13 @@ El README y el workflow v3 permiten analizar, mapear, organizar y consolidar tod
 
 ---
 
+## 7. Archivos de auditoría y mapping
+Los reportes generados por Codex se encuentran en la raíz de `AUDT`:
+
+- `audit_mapping.csv` – tabla con la categoría del glosario y título de cada auditoría.
+- `audit_insights.json` – listado de insights clave por archivo.
+- `audit_summary.json` – índice resumido con la misma información.
+- `auditoria_consolidacion_propuesta_20250725.md` – propuesta de consolidación y árbol de directorios.
+
+Todos estos archivos fueron movidos desde el directorio principal a `AUDT/` para mantener centralizada la documentación de auditoría.
+
