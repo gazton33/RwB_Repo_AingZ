@@ -33,5 +33,5 @@ Actualizado tras auditoría de naming y enlaces (commit ec010c1). Ver changelog.
 ## 2025-07-29 — Consolidación de memoria viva
 - Añadidas referencias a commit ec010c1 en 'Última actualización' de la memoria viva.
 - Reconfirmados README raíz y subcarpetas con enlaces al glosario.
-- Pendiente renombrar carpetas con espacios como 'Relev ideas'.
+- Carpeta 'Relev ideas' renombrada a 'Relev_ideas'.
 - Añadida referencia al glosario en todas las carpetas principales.
