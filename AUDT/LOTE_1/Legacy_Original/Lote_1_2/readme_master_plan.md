@@ -18,7 +18,7 @@ Este README referencia al **MASTER_PLAN_AINGZ_INFRASTRUCTURE.md** como el docume
 ## Enlaces clave
 - [MASTER_PLAN_AINGZ_INFRASTRUCTURE.md](MASTER_PLAN_AINGZ_INFRASTRUCTURE.md)
 - [welcome_onboarding_gz.md](welcome_onboarding_gz.md)
-- [knowled../knowledges_gz_project_insights.md](knowled../knowledges_gz_project_insights.md)
+- [../../../../knowledges/knowledges_gz_project_insights.md](../../../../knowledges/knowledges_gz_project_insights.md)
 - [doc/croquis-mapeo-features-prompts.md](doc/croquis-mapeo-features-prompts.md)
 - [matrices/control_trazabilidad_fuentes_chatgpt_workflow.md](matrices/control_trazabilidad_fuentes_chatgpt_workflow.md)
 

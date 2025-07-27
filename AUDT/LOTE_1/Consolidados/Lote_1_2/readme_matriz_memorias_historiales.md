@@ -85,7 +85,7 @@ venn
 
 - `master_plan_aingz_infrastructure.md` (guía y roadmap principal)
 - `knowledge/matriz_extendida_features_chatgpt_workflow.md` (features detalladas)
-- `knowled../knowledges_gz_project_insights.md` (aprendizajes y casos de uso)
+- `../../../../knowledges/knowledges_gz_project_insights.md` (aprendizajes y casos de uso)
 - `matrices/control_trazabilidad_fuentes_chatgpt_workflow.md` (control de fuentes/cambios)
 
 ---
