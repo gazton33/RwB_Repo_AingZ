@@ -3,7 +3,17 @@ from pathlib import Path
 import re
 
 # Adapted from Legacy/Aud_3/Legacy_Original/Lote_scripts/class_scan.py
-LEGACY_DIR = Path('Legacy')
+#
+"""Scan legacy files by class code.
+
+Expected repository layout::
+
+    AUDT/
+      LOTE_1/
+        Legacy_Original/  # default scanned by this script
+"""
+
+LEGACY_DIR = Path('AUDT/LOTE_1/Legacy_Original')
 
 
 def find_class_files(directory: Path, class_code: str):
@@ -32,7 +42,7 @@ def parse_args(args=None):
     parser.add_argument(
         '-d', '--directory',
         default=str(LEGACY_DIR),
-        help='Base directory to scan'
+        help="Base directory to scan (default 'AUDT/LOTE_1/Legacy_Original/')"
     )
     parser.add_argument(
         '--duplicates',
