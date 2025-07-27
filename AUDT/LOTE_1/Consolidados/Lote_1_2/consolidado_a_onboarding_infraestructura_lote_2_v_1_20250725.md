@@ -20,7 +20,7 @@ Centralizar el onboarding, la estructura modular y el master plan de la infraest
   - Checklist y templates de onboarding incluidos en `/matrices/` y `/doc/`.
 - **Referencias cruzadas:**
   - master_plan_aingz_infrastructure.md
-  - knowled../knowledges_gz_project_insights.md
+  - ../../../../knowledges/knowledges_gz_project_insights.md
   - doc/croquis-mapeo-features-prompts.md
   - matrices/control_trazabilidad_fuentes_chatgpt_workflow.md
 
