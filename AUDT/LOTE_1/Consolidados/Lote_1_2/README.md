@@ -12,7 +12,7 @@ Este repositorio implementa una infraestructura modular, trazable y versionable 
 ## Estructura de carpetas
 
 - `/matrices/` — Matrices de precedencia, jerarquías y features. Uso y control central de lógica de input/output.
--../knowledges/` — Knowledge base, templates universales, lecciones aprendidas y profundización de features.
+- `../knowledges/` — Knowledge base, templates universales, lecciones aprendidas y profundización de features.
 - `/template/` — Plantillas y flujos para casos de uso (personalización global, proyectos, GPTs).
 - `/doc/` — Diagramas visuales, ejemplos, FAQs, documentación viva y operativa.
 
@@ -28,7 +28,7 @@ Este repositorio implementa una infraestructura modular, trazable y versionable 
 
 ## Reglas y trazabilidad
 - Todos los archivos y templates versionados llevan fecha, autor y referencias cruzadas.
-- Cualquier override, excepción o aprendizaje debe documentarse en../knowledges/` y quedar linkeado en los READMEs.
+- Cualquier override, excepción o aprendizaje debe documentarse en `../knowledges/` y quedar linkeado en los READMEs.
 - Los outputs relevantes deben exportarse/versionarse en la knowledge base para mantener integridad y continuidad.
 
 ---
