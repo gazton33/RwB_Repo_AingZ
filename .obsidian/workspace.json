@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledges/glossary/rw_b_glosario_code_v_1_core.md",
+                "file": "Learn/insi/insi_actv_kns_ctx_raw_v_1_20250725.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rw_b_glosario_code_v_1_core"
+              "title": "insi_actv_kns_ctx_raw_v_1_20250725"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 442.5
   },
   "right": {
     "id": "bbe16ab35b0bdbed",
@@ -170,18 +170,31 @@
   },
   "active": "d11cf11cdc2c6ea0",
   "lastOpenFiles": [
+    "Learn/trnlog/trnlog_actv_kns_ctx_raw_v_1_20250725.md",
+    "Learn/learn/learn_actv_kns_ctx_raw_v_1_20250725.md",
+    "knowledges/README.md",
+    "AUDT/rw_b_audt_consolidacion_ciclo_20250725.md",
+    "AUDT/readme_legacy_rw_b_v_1_20250725.md",
+    "AUDT/README.md",
+    "AUDT/auditoria_consolidacion_propuesta_20250725.md",
+    "AUDT/03_siguientes_pasos_y_workflow_consolidacion.md",
+    "AUDT/01_informe_auditoria_legacy.md",
+    "rwb_repo_directory_plan_v_1.md",
+    "rw_b_glosario_code_v_2_beta_full_2_20250729.md",
+    "WF/rw_b_wf_relev_hilo_assets_v_1_20250729.md",
+    "rw_b_diccionario_code_triggers_v_2_20250729.md",
+    "rw_b_glosario_code_v_2_20250729.md",
+    "rw_b_glosario_code_v_1.1_core_20250725.md",
+    "rw_b_glosario_code_v_1_2_core_20250729_incremental.md",
+    "rw_b_diccionario_code_triggers_v_1_1_20250729.md",
+    "rw_b_glosario_code_v_1_core_20250725.md",
+    "readme.md",
+    "rw_b_glosario_code_v_1_core_20250725 (1).md",
+    "mpln_master_plan_aingz_rw_b_v_20250725_v_2.md",
+    "backup/purgatorio/rwb_repo_directory_plan_v_1.md",
     "knowledges/glossary/rw_b_glosario_code_v_0_core.md",
     "knowledges/glossary/rw_b_glossary_rdm_v_0.md",
     "knowledges/glossary/rw_b_glosario_code_v_1_core.md",
-    "Learn/learn/learn_actv_kns_ctx_raw_v_1_20250725.md",
-    "Learn/insi/rw_b_insi_v_1.md",
-    "Learn/insi/rw_b_insi_v_2_20250724.md",
-    "WF/README.md",
-    "README_CHATGPT.md",
-    "README.md",
-    "proyecto_aing_z_analisis_de_repositorio.md",
-    "rwb_repo_directory_plan_v_1.md",
-    "MASTER_PLAN_AINGZ_INFRASTRUCTURE.md",
-    "welcome_onboarding_gz.md"
+    "Learn/insi/rw_b_insi_v_1.md"
   ]
 }
