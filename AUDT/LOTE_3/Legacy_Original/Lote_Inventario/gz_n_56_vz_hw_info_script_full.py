@@ -4,7 +4,9 @@ Script AVANZADO para inventario de hardware y software en Windows.
 - Ideal para auditoría técnica e integración en gemelos digitales.
 - Exporta CSV y log markdown.
 
-Requisitos: psutil, platform, cpuinfo, GPUtil, wmi (para software), pywin32
+Dependencias principales: ``psutil``.
+Dependencias opcionales: ``cpuinfo`` para detalles de CPU, ``GPUtil`` para GPUs,
+``wmi`` y ``pywin32`` para información de software en Windows.
 """
 import platform
 import psutil
