@@ -8,24 +8,22 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 ---
 
 ## 2. Estructura general del repositorio (RawBase 2025)
-- **WF/** – Workflows activos, logs y bitácora de versiones (`CHG_LOG_WF_PURGATORIO_20250725.md`)
-- **knowledges/** – Glosario, contextos, KNS, lessons learned, changelogs (`rw_b_glosario_code_v_1_core.md`, logs KNS)
+- **WF/** – Workflows activos, logs y bitácora de versiones (`chg_log_wf_purgatorio_20250725.md`)
+- **knowledges/** – Glosario, contextos y lessons learned (`rw_b_glosario_code_v_1_core_20250725.md`)
 - **Learn/** – Memoria viva incremental
-- **template/** – Plantillas de naming, prompts, README
-- **AUDT/** – Auditorías legacy, logs y bitácoras (`CHG_LOG_AUDITORIA_20250725.md`)
-- **CONSOLIDADO/** – Outputs finales y entregables listos para uso
-- **KNS/** – Knowledge base modular (glosarios, memorias, lessons, logs KNS)
-- **DOC/** – Documentación formal, blueprints, master-plans, logs DOC
-- **SCR/** – Scripts globales, de integración, ETL
-- **LOG/** – Logs globales, changelogs, audit-logs (`CHG_LOG_MAIN_AINGZ_20250725.md`)
-- **PURGATORIO/** – Staging temporal/backup previo a integración
+- **template/** – Plantillas de naming y README
+- **AUDT/** – Auditorías legacy y bitácoras (`CHG_LOG_AUDITORIA_20250725.md`)
+- **doc/** – Documentación formal y master-plans
+- **scripts/** – Utilidades y ETL
+- **matrices/** – Matrices de precedencia y trazabilidad
+- **backup/** – Respaldo y purgatorio (`backup/purgatorio/`)
 
 ---
 
 ## 3. Reglas y metodología de operación
 - Seguir siempre el glosario core (`knowledges/rw_b_glosario_code_v_1_core.md`) y plantilla de naming (`template/naming/rw_b_naming_template_v_1.md`).
 - Usar el plan de directorio (`rwb_repo_directory_plan_v_1.md`), workflows (`WF/`), logs y bitácoras como referencia operativa.
-- Toda acción (movimiento, auditoría, integración) debe registrar logs en carpeta/log correspondiente y actualizar el changelog maestro.
+- Toda acción (movimiento, auditoría, integración) debe registrar logs en el archivo o carpeta correspondiente y actualizar el changelog maestro.
 - Checklist de cobertura, versionado y referenciación cruzada antes de cada merge, integración o purga.
 - Nunca borrar outputs legacy sin respaldo y registro en logs.
 
@@ -34,7 +32,7 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 ## 4. Onboarding, logs y changelogs
 - La guía de bienvenida (`ONBRD_WELCOME_ONBOARDING_GZ_RW_B_v_20250725.md`) es la referencia inicial para cualquier usuario o IA.
 - Logs y changelogs incrementales se mantienen por subcarpeta y se unifican en `CHG_LOG_MAIN_AINGZ_20250725.md`.
-- Cada carpeta relevante debe incluir su bitácora/log (WF, AUDT, KNS, DOC, ONBRD, MPLN).
+- Cada carpeta relevante debe incluir su bitácora o log (WF, AUDT, knowledges, doc). Las guías de onboarding y el master plan se mantienen en archivos raíz.
 - Toda actualización mayor debe reflejarse en este README y el changelog principal.
 
 ---
