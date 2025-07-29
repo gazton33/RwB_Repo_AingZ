@@ -50,7 +50,6 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 
 ---
 
-
 ## 7. Ejecución de pruebas
 Las pruebas unitarias están en la carpeta `tests/`. Para correrlas se utiliza `pytest`:
 
