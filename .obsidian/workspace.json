@@ -168,8 +168,25 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d11cf11cdc2c6ea0",
+  "active": "41504e36a4c954f5",
   "lastOpenFiles": [
+    "tests/__init__.py",
+    "tests/test_mapping.py",
+    "tests/test_class_scan.py",
+    "tests",
+    "requirements.txt",
+    "backup/purgatorio/rw_b_trnlog_v_2_20250724.md",
+    "backup/purgatorio/rw_b_trnlog_v_1.md",
+    "backup/purgatorio/rw_b_learn_v_2_20250724.md",
+    "backup/purgatorio/rw_b_learn_v_1.md",
+    "backup/purgatorio/rw_b_insi_v_2_20250724.md",
+    "backup/purgatorio/rw_b_insi_v_1.md",
+    "backup/purgatorio/rw_b_chglog_v_2_20250724.md",
+    "backup/purgatorio/rw_b_chglog_v_1.md",
+    "backup/purgatorio",
+    "backup",
+    "LICENSE",
+    "AUDT/LOTE_3/Legacy_Original/Lote_Inventario/gz_n_56_vz_hw_info_script_full.py",
     "Learn/trnlog/trnlog_actv_kns_ctx_raw_v_1_20250725.md",
     "Learn/learn/learn_actv_kns_ctx_raw_v_1_20250725.md",
     "knowledges/README.md",
@@ -186,15 +203,6 @@
     "rw_b_glosario_code_v_2_20250729.md",
     "rw_b_glosario_code_v_1.1_core_20250725.md",
     "rw_b_glosario_code_v_1_2_core_20250729_incremental.md",
-    "rw_b_diccionario_code_triggers_v_1_1_20250729.md",
-    "rw_b_glosario_code_v_1_core_20250725.md",
-    "readme.md",
-    "rw_b_glosario_code_v_1_core_20250725 (1).md",
-    "mpln_master_plan_aingz_rw_b_v_20250725_v_2.md",
-    "backup/purgatorio/rwb_repo_directory_plan_v_1.md",
-    "knowledges/glossary/rw_b_glosario_code_v_0_core.md",
-    "knowledges/glossary/rw_b_glossary_rdm_v_0.md",
-    "knowledges/glossary/rw_b_glosario_code_v_1_core.md",
-    "Learn/insi/rw_b_insi_v_1.md"
+    "rw_b_diccionario_code_triggers_v_1_1_20250729.md"
   ]
 }
