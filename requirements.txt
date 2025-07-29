@@ -1,0 +1,5 @@
+psutil
+py-cpuinfo
+GPUtil
+wmi
+pywin32

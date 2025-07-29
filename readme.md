@@ -50,3 +50,13 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 
 ---
 
+## 7. Instalación
+Para instalar las dependencias básicas del proyecto ejecuta:
+
+```bash
+pip install -r requirements.txt
+```
+
+Los paquetes `cpuinfo`, `GPUtil`, `wmi` y `pywin32` son opcionales y solo se necesitan
+si deseas obtener información detallada de CPU, GPU o software instalado en Windows.
+
