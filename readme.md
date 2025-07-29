@@ -50,13 +50,10 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 
 ---
 
-## 7. Instalación
-Para instalar las dependencias básicas del proyecto ejecuta:
+## 7. Ejecución de pruebas
+Las pruebas unitarias están en la carpeta `tests/`. Para correrlas se utiliza `pytest`:
 
 ```bash
-pip install -r requirements.txt
+pip install pytest  # si no está instalado
+pytest
 ```
-
-Los paquetes `cpuinfo`, `GPUtil`, `wmi` y `pywin32` son opcionales y solo se necesitan
-si deseas obtener información detallada de CPU, GPU o software instalado en Windows.
-
