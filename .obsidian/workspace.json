@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learn/insi/insi_actv_kns_ctx_raw_v_1_20250725.md",
+                "file": "mpln_master_plan_aingz_rw_b_v_20250729_v_3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "insi_actv_kns_ctx_raw_v_1_20250725"
+              "title": "mpln_master_plan_aingz_rw_b_v_20250729_v_3"
             }
           }
         ]
@@ -168,8 +168,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "41504e36a4c954f5",
+  "active": "d11cf11cdc2c6ea0",
   "lastOpenFiles": [
+    "mpln_master_plan_aingz_rw_b_v_20250725_v_2.md",
+    "mpln_master_plan_aingz_rw_b_v_20250729_v_3.md",
+    "Learn/insi/insi_actv_kns_ctx_raw_v_1_20250725.md",
     "tests/__init__.py",
     "tests/test_mapping.py",
     "tests/test_class_scan.py",
@@ -201,8 +204,6 @@
     "WF/rw_b_wf_relev_hilo_assets_v_1_20250729.md",
     "rw_b_diccionario_code_triggers_v_2_20250729.md",
     "rw_b_glosario_code_v_2_20250729.md",
-    "rw_b_glosario_code_v_1.1_core_20250725.md",
-    "rw_b_glosario_code_v_1_2_core_20250729_incremental.md",
-    "rw_b_diccionario_code_triggers_v_1_1_20250729.md"
+    "rw_b_glosario_code_v_1.1_core_20250725.md"
   ]
 }
