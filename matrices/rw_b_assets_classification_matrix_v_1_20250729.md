@@ -77,6 +77,7 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | **AI · BK**      | ‑               | AI·BK·TL  | ‑              | ‑ |
 | **AI · PG**      | ‑               | AI·PG·TL  | ‑              | ‑ |
 
+
 *(Completar según necesidades; combinaciones vacías implican flujo no usual.)*
 
 ---
@@ -96,6 +97,7 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 2. Registrar snapshot BLN y log en BIT.
 3. Auditar mensual `WF_AUDIT_CORE`.
 ```
+
 ### EXT‑OFF·AC·REF — Referencia externa oficial activa
 1. Colocar en `/DOC/EXT_OFF/`.
 2. Verificar licencias y registrar en BIT.
@@ -120,7 +122,6 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 1. Crear en `/TMP/AI/` con prefijo `draft_`.
 2. Revisar coherencia antes de mover a `/KNS/TL`.
 3. Auditoría rápida `WF_AUDIT_TL`.
-
 
 ### INT‑LEG·AC·CORE — Activo legacy consolidado
 1. Ubicar en `/CORE/INT_LEG/`.
