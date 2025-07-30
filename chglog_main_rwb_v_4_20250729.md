@@ -29,10 +29,12 @@
 - Registrado trigger `TRG_AUDIT_EXT_OFF` en glosario y diccionario.
 - Documentado el archivo `registro_trazabilidad_total.md` en el README principal.
 
+
 ## 2025-07-30 — Expansión de Matrix
 - Añadidas múltiples filas en Matrix v1 cubriendo BK, PG, AU y nuevos orígenes.
 - Ejemplos de procedimiento para `INT·BK·REF`, `EXT‑OFF·BK·CORE`, `EXT‑COM·AC·TL` y `AI·DR·TL`.
 - Actualizado checklist de avances con tareas cumplidas.
+
 
 ---
 
