@@ -97,7 +97,6 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 2. Registrar snapshot BLN y log en BIT.
 3. Auditar mensual `WF_AUDIT_CORE`.
 ```
-
 ### EXT‑OFF·AC·REF — Referencia externa oficial activa
 1. Colocar en `/DOC/EXT_OFF/`.
 2. Verificar licencias y registrar en BIT.

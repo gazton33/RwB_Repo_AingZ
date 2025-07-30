@@ -88,6 +88,7 @@
 | D22 | TST  | Test | Matriz de pruebas automáticas. | Output VALD | test runner |
 | D23 | QRY  | Query | Consulta declarativa (SQL‑like). | Proc MIG | query engine |
 | D24 | BLPR | Blueprint | Diagrama de arquitectura. | Herm MPLN | mermaid diagrams |
+| D25 | WF_INIT | WorkflowInit | Control inicial del repo y chequeo de registros. | WF especial | boot sequence |
 
 ## E. LOGS & TRAZABILIDAD
 | ID | CODE | Name | Descripción | Relación | Features (OpenAI) |

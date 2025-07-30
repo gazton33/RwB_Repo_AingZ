@@ -29,7 +29,6 @@
 - Registrado trigger `TRG_AUDIT_EXT_OFF` en glosario y diccionario.
 - Documentado el archivo `registro_trazabilidad_total.md` en el README principal.
 
-
 ## 2025-07-30 — Expansión de Matrix
 
 - Añadidas múltiples filas en Matrix v1 cubriendo BK, PG, AU y nuevos orígenes.
@@ -41,6 +40,10 @@
 - Añadidos procedimientos detallados para INT‑LEG·AC·CORE, INT‑LEG·DR·TL, EXT‑COM·BK·REF, AI·BK·TL y AI·PG·TL.
 - Incorporados triggers `TRG_AUDIT_LEGACY` y `TRG_PURGE_AI` en glosario y diccionario.
 
+## 2025-07-31 — Workflow de inicio
+- Creado `WF_INICIO_REPO_CHECK` para chequeo de cambios y referencias cruzadas.
+- Agregado código `WF_INIT` en glosario y diccionario.
+- Documentado en el README la sección de control inicial.
 
 ---
 
