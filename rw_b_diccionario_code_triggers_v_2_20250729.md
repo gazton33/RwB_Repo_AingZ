@@ -29,6 +29,11 @@
 | B14 | ACTV | ActiveAsset | "🔥 ACTV mark" | Meta | MD | log.md |
 | B15 | PURG | Purgatory | "🗑️ PURG move" | Meta | MD | archive.md |
 | B16 | DIFF | DiffAsset | "🔍 DIFF v1 v2" | Meta | MD | diff.md |
+| B17 | TRG_AUDIT_TL | TriggerAuditTL | "🔔 TRG_AUDIT_TL" | Trigger | MD | audit_tl.md |
+| B18 | TRG_CONSOLIDATE_TL | TriggerConsolidateTL | "🔔 TRG_CONSOLIDATE_TL" | Trigger | MD | consolidate_tl.md |
+| B19 | TRG_AUDIT_EXT_OFF | TriggerAuditExternalOfficial | "🔔 TRG_AUDIT_EXT_OFF" | Trigger | MD | audit_ext_off.md |
+| B20 | TRG_AUDIT_BACKUP | TriggerAuditBackup | "🔔 TRG_AUDIT_BACKUP" | Trigger | MD | audit_backup.md |
+| B21 | TRG_TRAIN_EXT_COM | TriggerTrainExternalCommunity | "🔔 TRG_TRAIN_EXT_COM" | Trigger | MD | train_ext_com.md |
 | C01 | INS | InstructionSet | "📜 INS QA" | Doc | MD | instructions.md |
 | C02 | ENV | EnvInstruction | "🌎 ENV prod" | Doc | MD | env.md |
 | C03 | HIE | HierInstruction | "🏛️ HIE App" | Doc | MD | hie.md |

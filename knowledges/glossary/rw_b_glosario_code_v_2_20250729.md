@@ -43,7 +43,12 @@
 | B14 | ACTV| ActiveAsset | Asset vivo/actual. | Transversal | live editor |
 | B15 | PURG| Purgatory | Directorio de obsoletos. | Transversal | cold storage |
 | B16 | DIFF| DiffAsset | Archivo de diferencias entre versiones. | Transversal | diff analysis |
+| B17 | TRG_AUDIT_TL | TriggerAuditTL | Disparador auditoría TL | Ciclo TL | event hooks |
+| B18 | TRG_CONSOLIDATE_TL | TriggerConsolidateTL | Disparador consolidación TL | Ciclo TL | event hooks |
 
+| B19 | TRG_AUDIT_EXT_OFF | TriggerAuditExternalOfficial | Disparador auditoría de assets externos oficiales | Ciclo EXT | event hooks |
+| B20 | TRG_AUDIT_BACKUP | TriggerAuditBackup | Disparador auditoría de respaldos | Ciclo BK | event hooks |
+| B21 | TRG_TRAIN_EXT_COM | TriggerTrainExternalCommunity | Disparador training assets comunidad externa | Ciclo TL | event hooks |
 ## C. INSTRUCCIONES & PROC
 | ID | CODE | Name | Descripción | Jerarquía | Features (OpenAI) |
 |----|------|------|-------------|-----------|-------------------|
