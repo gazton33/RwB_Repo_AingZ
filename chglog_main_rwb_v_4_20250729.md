@@ -20,6 +20,15 @@
 - Procedimientos y flujos para dictado por voz, training, tuning IA y migración literal.
 - Actualización del ciclo de vida de assets y workflows, integración con matriz y glosario.
 
+
+## 2025-07-30 — Actualización incremental
+- Generado `registro_trazabilidad_total.md` con script de mapeo.
+- Nueva fila `INT·AC` y procedimiento `INT·AC·CORE` en Matrix v1.
+- Agregados triggers `TRG_AUDIT_TL` y `TRG_CONSOLIDATE_TL` en glosario y diccionario.
+- Añadida fila `EXT‑OFF·AC` y procedimiento `EXT‑OFF·AC·REF` en Matrix v1.
+- Registrado trigger `TRG_AUDIT_EXT_OFF` en glosario y diccionario.
+- Documentado el archivo `registro_trazabilidad_total.md` en el README principal.
+
 ---
 
 ## Firma
