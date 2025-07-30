@@ -81,8 +81,6 @@ python scripts/mapping.py
 Para un chequeo rápido de cambios y referencias cruzadas al comenzar una sesión,
 revisa el workflow [`WF_INICIO_REPO_CHECK`](WF/rw_b_wf_inicio_repo_check_v_1_20250731.md).
 
-
-
 ---
 
 ## Licencia

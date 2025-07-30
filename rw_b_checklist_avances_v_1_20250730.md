@@ -10,4 +10,3 @@
 - [x] Registrar avances en el changelog principal.
 - [x] Expandida Matrix v1 con filas BK, PG, AU y EXT-COM.
 - [ ] Aplicar workflows de auditoría, dictado y migración según roadmap.
-

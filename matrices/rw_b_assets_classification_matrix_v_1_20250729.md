@@ -121,7 +121,6 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 2. Revisar coherencia antes de mover a `/KNS/TL`.
 3. Auditoría rápida `WF_AUDIT_TL`.
 
-
 ### INT‑LEG·AC·CORE — Activo legacy consolidado
 1. Ubicar en `/CORE/INT_LEG/`.
 2. Registrar review en BIT y enlace a legacy original.
