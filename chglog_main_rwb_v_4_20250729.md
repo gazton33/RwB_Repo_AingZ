@@ -45,6 +45,7 @@
 - Agregado código `WF_INIT` en glosario y diccionario.
 - Documentado en el README la sección de control inicial.
 
+
 ---
 
 ## Firma

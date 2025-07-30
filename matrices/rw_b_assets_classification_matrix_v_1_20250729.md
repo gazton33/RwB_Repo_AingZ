@@ -77,7 +77,6 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | **AI · BK**      | ‑               | AI·BK·TL  | ‑              | ‑ |
 | **AI · PG**      | ‑               | AI·PG·TL  | ‑              | ‑ |
 
-
 *(Completar según necesidades; combinaciones vacías implican flujo no usual.)*
 
 ---
