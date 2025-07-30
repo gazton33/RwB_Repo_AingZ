@@ -52,6 +52,7 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | SRC \ STG \ ROLE | CORE            | TL        | REF            | BLUE        |
 | ---------------- | --------------- | --------- | -------------- | ----------- |
 | **INT · DR**     | INT·DR·CORE     | INT·DR·TL | INT·DR·REF     | INT·DR·BLUE |
+| **INT · AC**     | INT·AC·CORE     | INT·AC·TL | INT·AC·REF     | INT·AC·BLUE |
 | **INT‑LEG · PG** | INT‑LEG·PG·CORE | ‑         | INT‑LEG·PG·REF | ‑           |
 | **EXT‑OFF · DR** | EXT‑OFF·DR·CORE | ‑         | EXT‑OFF·DR·REF | ‑           |
 | **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑           |
@@ -68,6 +69,12 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 2. Etiquetar `STA=WIP` y registrar en BIT.
 3. WF aplicado: `WF_TUNE_FEEDBACK` → genera resultado.
 4. Auditoría semanal `WF_AUDIT_TL` decide consolidación a ACTV.
+```
+
+### INT·AC·CORE — Activo interno principal
+1. Ubicar en `/CORE/INT/`.
+2. Registrar snapshot BLN y log en BIT.
+3. Auditar mensual `WF_AUDIT_CORE`.
 ```
 
 Añadir subsecciones similares para cada combinación relevante.
