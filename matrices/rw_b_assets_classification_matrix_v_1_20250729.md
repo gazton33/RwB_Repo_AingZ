@@ -77,6 +77,7 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | **AI · BK**      | ‑               | AI·BK·TL  | ‑              | ‑ |
 | **AI · PG**      | ‑               | AI·PG·TL  | ‑              | ‑ |
 
+
 *(Completar según necesidades; combinaciones vacías implican flujo no usual.)*
 
 ---
@@ -120,7 +121,6 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 1. Crear en `/TMP/AI/` con prefijo `draft_`.
 2. Revisar coherencia antes de mover a `/KNS/TL`.
 3. Auditoría rápida `WF_AUDIT_TL`.
-
 
 ### INT‑LEG·AC·CORE — Activo legacy consolidado
 1. Ubicar en `/CORE/INT_LEG/`.

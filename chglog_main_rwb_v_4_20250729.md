@@ -34,6 +34,7 @@
 - Añadidas múltiples filas en Matrix v1 cubriendo BK, PG, AU y nuevos orígenes.
 - Ejemplos de procedimiento para `INT·BK·REF`, `EXT‑OFF·BK·CORE`, `EXT‑COM·AC·TL` y `AI·DR·TL`.
 - Actualizado checklist de avances con tareas cumplidas.
+
 ## 2025-07-31 — Matrix completada
 - Integradas combinaciones INT‑LEG·AC, INT‑LEG·DR, EXT‑COM·BK y AI·BK/PG en Matrix v1.
 - Añadidos procedimientos detallados para INT‑LEG·AC·CORE, INT‑LEG·DR·TL, EXT‑COM·BK·REF, AI·BK·TL y AI·PG·TL.
@@ -43,7 +44,6 @@
 - Creado `WF_INICIO_REPO_CHECK` para chequeo de cambios y referencias cruzadas.
 - Agregado código `WF_INIT` en glosario y diccionario.
 - Documentado en el README la sección de control inicial.
-
 
 ---
 
