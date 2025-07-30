@@ -20,6 +20,31 @@
 - Procedimientos y flujos para dictado por voz, training, tuning IA y migración literal.
 - Actualización del ciclo de vida de assets y workflows, integración con matriz y glosario.
 
+
+## 2025-07-30 — Actualización incremental
+- Generado `registro_trazabilidad_total.md` con script de mapeo.
+- Nueva fila `INT·AC` y procedimiento `INT·AC·CORE` en Matrix v1.
+- Agregados triggers `TRG_AUDIT_TL` y `TRG_CONSOLIDATE_TL` en glosario y diccionario.
+- Añadida fila `EXT‑OFF·AC` y procedimiento `EXT‑OFF·AC·REF` en Matrix v1.
+- Registrado trigger `TRG_AUDIT_EXT_OFF` en glosario y diccionario.
+- Documentado el archivo `registro_trazabilidad_total.md` en el README principal.
+
+## 2025-07-30 — Expansión de Matrix
+
+- Añadidas múltiples filas en Matrix v1 cubriendo BK, PG, AU y nuevos orígenes.
+- Ejemplos de procedimiento para `INT·BK·REF`, `EXT‑OFF·BK·CORE`, `EXT‑COM·AC·TL` y `AI·DR·TL`.
+- Actualizado checklist de avances con tareas cumplidas.
+## 2025-07-31 — Matrix completada
+- Integradas combinaciones INT‑LEG·AC, INT‑LEG·DR, EXT‑COM·BK y AI·BK/PG en Matrix v1.
+- Añadidos procedimientos detallados para INT‑LEG·AC·CORE, INT‑LEG·DR·TL, EXT‑COM·BK·REF, AI·BK·TL y AI·PG·TL.
+- Incorporados triggers `TRG_AUDIT_LEGACY` y `TRG_PURGE_AI` en glosario y diccionario.
+
+## 2025-07-31 — Workflow de inicio
+- Creado `WF_INICIO_REPO_CHECK` para chequeo de cambios y referencias cruzadas.
+- Agregado código `WF_INIT` en glosario y diccionario.
+- Documentado en el README la sección de control inicial.
+
+
 ---
 
 ## Firma

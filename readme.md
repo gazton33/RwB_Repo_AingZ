@@ -15,6 +15,7 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 - **AUDT/** – Auditorías legacy y bitácoras (`CHG_LOG_AUDITORIA_20250725.md`)
 - **doc/** – Documentación formal y master-plans
 - **scripts/** – Utilidades y ETL
+- **registro_trazabilidad_total.md** – Mapeo automático de archivos legacy → RwB (generado con `scripts/mapping.py`)
 - **matrices/** – Matrices de precedencia y trazabilidad
 - **backup/** – Respaldo y purgatorio (`backup/purgatorio/`)
 
@@ -68,6 +69,19 @@ Las pruebas unitarias están en la carpeta `tests/`. Para correrlas se utiliza `
 pip install pytest  # si no está instalado
 pytest
 ```
+
+## 8. Generar mapeo de legacy
+Para actualizar `registro_trazabilidad_total.md` ejecuta el script de mapeo:
+
+```bash
+python scripts/mapping.py
+```
+
+## 9. Control inicial del repositorio
+Para un chequeo rápido de cambios y referencias cruzadas al comenzar una sesión,
+revisa el workflow [`WF_INICIO_REPO_CHECK`](WF/rw_b_wf_inicio_repo_check_v_1_20250731.md).
+
+
 
 ---
 

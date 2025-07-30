@@ -29,6 +29,13 @@
 | B14 | ACTV | ActiveAsset | "🔥 ACTV mark" | Meta | MD | log.md |
 | B15 | PURG | Purgatory | "🗑️ PURG move" | Meta | MD | archive.md |
 | B16 | DIFF | DiffAsset | "🔍 DIFF v1 v2" | Meta | MD | diff.md |
+| B17 | TRG_AUDIT_TL | TriggerAuditTL | "🔔 TRG_AUDIT_TL" | Trigger | MD | audit_tl.md |
+| B18 | TRG_CONSOLIDATE_TL | TriggerConsolidateTL | "🔔 TRG_CONSOLIDATE_TL" | Trigger | MD | consolidate_tl.md |
+| B19 | TRG_AUDIT_EXT_OFF | TriggerAuditExternalOfficial | "🔔 TRG_AUDIT_EXT_OFF" | Trigger | MD | audit_ext_off.md |
+| B20 | TRG_AUDIT_BACKUP | TriggerAuditBackup | "🔔 TRG_AUDIT_BACKUP" | Trigger | MD | audit_backup.md |
+| B21 | TRG_TRAIN_EXT_COM | TriggerTrainExternalCommunity | "🔔 TRG_TRAIN_EXT_COM" | Trigger | MD | train_ext_com.md |
+| B22 | TRG_AUDIT_LEGACY | TriggerAuditLegacy | "🔔 TRG_AUDIT_LEGACY" | Trigger | MD | audit_legacy.md |
+| B23 | TRG_PURGE_AI | TriggerPurgeAI | "🔔 TRG_PURGE_AI" | Trigger | MD | purge_ai.md |
 | C01 | INS | InstructionSet | "📜 INS QA" | Doc | MD | instructions.md |
 | C02 | ENV | EnvInstruction | "🌎 ENV prod" | Doc | MD | env.md |
 | C03 | HIE | HierInstruction | "🏛️ HIE App" | Doc | MD | hie.md |
@@ -59,6 +66,7 @@
 | D22 | TST | Test | "🧪 TST run" | QA | PY | tests.py |
 | D23 | QRY | Query | "🔎 QRY select" | Tool | SQL | query.sql |
 | D24 | BLPR | Blueprint | "📐 BLPR draw" | Doc | MD | blueprint.md |
+| D25 | WF_INIT | WorkflowInit | "🔎 WF_INIT check" | Workflow | MD | wf_inicio_repo_check_v_1_20250731.md |
 | E01 | LOG | Log | "📜 LOG view" | Log | LOG | app.log |
 | E02 | BIT | Logbook | "📚 BIT add" | Log | LOG | bit.log |
 | E03 | CHG | Changelog | "🕰️ CHG bump" | Log | MD | changelog.md |
