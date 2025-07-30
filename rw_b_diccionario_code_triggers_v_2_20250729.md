@@ -31,6 +31,7 @@
 | B16 | DIFF | DiffAsset | "🔍 DIFF v1 v2" | Meta | MD | diff.md |
 | B17 | TRG_AUDIT_TL | TriggerAuditTL | "🔔 TRG_AUDIT_TL" | Trigger | MD | audit_tl.md |
 | B18 | TRG_CONSOLIDATE_TL | TriggerConsolidateTL | "🔔 TRG_CONSOLIDATE_TL" | Trigger | MD | consolidate_tl.md |
+| B19 | TRG_AUDIT_EXT_OFF | TriggerAuditExternalOfficial | "🔔 TRG_AUDIT_EXT_OFF" | Trigger | MD | audit_ext_off.md |
 | C01 | INS | InstructionSet | "📜 INS QA" | Doc | MD | instructions.md |
 | C02 | ENV | EnvInstruction | "🌎 ENV prod" | Doc | MD | env.md |
 | C03 | HIE | HierInstruction | "🏛️ HIE App" | Doc | MD | hie.md |

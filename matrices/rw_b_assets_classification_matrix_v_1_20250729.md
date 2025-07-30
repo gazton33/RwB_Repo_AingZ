@@ -55,6 +55,7 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | **INT · AC**     | INT·AC·CORE     | INT·AC·TL | INT·AC·REF     | INT·AC·BLUE |
 | **INT‑LEG · PG** | INT‑LEG·PG·CORE | ‑         | INT‑LEG·PG·REF | ‑           |
 | **EXT‑OFF · DR** | EXT‑OFF·DR·CORE | ‑         | EXT‑OFF·DR·REF | ‑           |
+| **EXT‑OFF · AC** | EXT‑OFF·AC·CORE | EXT‑OFF·AC·TL | EXT‑OFF·AC·REF | EXT‑OFF·AC·BLUE |
 | **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑           |
 
 *(Completar según necesidades; combinaciones vacías implican flujo no usual.)*
@@ -76,6 +77,12 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 2. Registrar snapshot BLN y log en BIT.
 3. Auditar mensual `WF_AUDIT_CORE`.
 ```
+
+### EXT‑OFF·AC·REF — Referencia externa oficial activa
+1. Colocar en `/DOC/EXT_OFF/`.
+2. Verificar licencias y registrar en BIT.
+3. Auditoría trimestral `WF_AUDIT_EXT_OFF`.
+
 
 Añadir subsecciones similares para cada combinación relevante.
 
