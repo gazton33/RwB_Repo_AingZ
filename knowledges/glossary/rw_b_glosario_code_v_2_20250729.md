@@ -48,6 +48,8 @@
 | B19 | TRG_AUDIT_EXT_OFF | TriggerAuditExternalOfficial | Disparador auditoría de assets externos oficiales | Ciclo EXT | event hooks |
 | B20 | TRG_AUDIT_BACKUP | TriggerAuditBackup | Disparador auditoría de respaldos | Ciclo BK | event hooks |
 | B21 | TRG_TRAIN_EXT_COM | TriggerTrainExternalCommunity | Disparador training assets comunidad externa | Ciclo TL | event hooks |
+| B22 | TRG_AUDIT_LEGACY | TriggerAuditLegacy | Disparador auditoría de archivos legacy | Ciclo LEG | event hooks |
+| B23 | TRG_PURGE_AI | TriggerPurgeAI | Disparador purga de datos IA | Ciclo AI | event hooks |
 
 ## C. INSTRUCCIONES & PROC
 | ID | CODE | Name | Descripción | Jerarquía | Features (OpenAI) |

@@ -70,7 +70,12 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | **AI · DR**      | ‑               | AI·DR·TL  | ‑              | ‑ |
 | **AI · AC**      | ‑               | AI·AC·TL  | ‑              | ‑ |
 | **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑ |
-| **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑ |
+| **EXT‑COM · BK** | EXT‑COM·BK·CORE | ‑         | EXT‑COM·BK·REF | ‑ |
+| **INT‑LEG · AC** | INT‑LEG·AC·CORE | INT‑LEG·AC·TL | INT‑LEG·AC·REF | INT‑LEG·AC·BLUE |
+| **INT‑LEG · DR** | INT‑LEG·DR·CORE | INT‑LEG·DR·TL | INT‑LEG·DR·REF | INT‑LEG·DR·BLUE |
+| **EXT‑OFF · TL** | ‑               | EXT‑OFF·TL·TL | ‑              | ‑ |
+| **AI · BK**      | ‑               | AI·BK·TL  | ‑              | ‑ |
+| **AI · PG**      | ‑               | AI·PG·TL  | ‑              | ‑ |
 
 
 *(Completar según necesidades; combinaciones vacías implican flujo no usual.)*
@@ -93,14 +98,10 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 3. Auditar mensual `WF_AUDIT_CORE`.
 ```
 
-=======
-
-
 ### EXT‑OFF·AC·REF — Referencia externa oficial activa
 1. Colocar en `/DOC/EXT_OFF/`.
 2. Verificar licencias y registrar en BIT.
 3. Auditoría trimestral `WF_AUDIT_EXT_OFF`.
-
 
 ### INT·BK·REF — Respaldo interno de referencia
 1. Guardar en `/BACKUP/INT/`.
@@ -122,8 +123,30 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 2. Revisar coherencia antes de mover a `/KNS/TL`.
 3. Auditoría rápida `WF_AUDIT_TL`.
 
-=======
+### INT‑LEG·AC·CORE — Activo legacy consolidado
+1. Ubicar en `/CORE/INT_LEG/`.
+2. Registrar review en BIT y enlace a legacy original.
+3. Auditoría de transición `WF_AUDIT_LEGACY`.
 
+### INT‑LEG·DR·TL — Draft legacy para Training
+1. Escanear en `/TRAIN_LEARN/INT_LEG/`.
+2. Revisar compatibilidad con assets actuales.
+3. Auditoría `WF_AUDIT_LEGACY`.
+
+### EXT‑COM·BK·REF — Respaldo comunidad externa
+1. Guardar en `/BACKUP/EXT_COM/`.
+2. Verificar checksum y procedencia.
+3. Auditoría anual `WF_AUDIT_BACKUP`.
+
+### AI·BK·TL — Respaldo IA para entrenamiento
+1. Archivar en `/BACKUP/AI/` con versión.
+2. Registrar en BIT con `STA=BCK`.
+3. Auditoría `WF_AUDIT_BACKUP`.
+
+### AI·PG·TL — Purgatorio de entrenamiento IA
+1. Mover a `/PURGATORIO/AI/` cuando queda obsoleto.
+2. Etiquetar `STA=PURG` y registrar en BIT.
+3. Ejecutar `WF_PURGE_AI` para limpieza final.
 
 Añadir subsecciones similares para cada combinación relevante.
 
