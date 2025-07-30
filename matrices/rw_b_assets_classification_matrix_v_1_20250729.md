@@ -56,7 +56,22 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 | **INT‑LEG · PG** | INT‑LEG·PG·CORE | ‑         | INT‑LEG·PG·REF | ‑           |
 | **EXT‑OFF · DR** | EXT‑OFF·DR·CORE | ‑         | EXT‑OFF·DR·REF | ‑           |
 | **EXT‑OFF · AC** | EXT‑OFF·AC·CORE | EXT‑OFF·AC·TL | EXT‑OFF·AC·REF | EXT‑OFF·AC·BLUE |
-| **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑           |
+| **INT · BK**     | INT·BK·CORE     | ‑         | INT·BK·REF     | ‑ |
+| **INT · PG**     | INT·PG·CORE     | ‑         | INT·PG·REF     | ‑ |
+| **INT · AU**     | INT·AU·CORE     | INT·AU·TL | INT·AU·REF     | ‑ |
+| **INT · TL**     | ‑               | INT·TL·TL | ‑              | ‑ |
+| **INT‑LEG · BK** | INT‑LEG·BK·CORE | ‑         | INT‑LEG·BK·REF | ‑ |
+| **INT‑LEG · LG** | INT‑LEG·LG·CORE | ‑         | INT‑LEG·LG·REF | ‑ |
+| **EXT‑OFF · BK** | EXT‑OFF·BK·CORE | ‑         | EXT‑OFF·BK·REF | ‑ |
+| **EXT‑OFF · PG** | EXT‑OFF·PG·CORE | ‑         | EXT‑OFF·PG·REF | ‑ |
+| **EXT‑COM · DR** | EXT‑COM·DR·CORE | ‑         | EXT‑COM·DR·REF | ‑ |
+| **EXT‑COM · AC** | EXT‑COM·AC·CORE | EXT‑COM·AC·TL | EXT‑COM·AC·REF | EXT‑COM·AC·BLUE |
+| **EXT‑COM · PG** | EXT‑COM·PG·CORE | ‑         | EXT‑COM·PG·REF | ‑ |
+| **AI · DR**      | ‑               | AI·DR·TL  | ‑              | ‑ |
+| **AI · AC**      | ‑               | AI·AC·TL  | ‑              | ‑ |
+| **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑ |
+| **AI · TL**      | ‑               | AI·TL·TL  | ‑              | ‑ |
+
 
 *(Completar según necesidades; combinaciones vacías implican flujo no usual.)*
 
@@ -78,10 +93,36 @@ Formato de código compuesto final: `SRC·STG·ROLE` (ej. `INT·DR·TL`).
 3. Auditar mensual `WF_AUDIT_CORE`.
 ```
 
+=======
+
+
 ### EXT‑OFF·AC·REF — Referencia externa oficial activa
 1. Colocar en `/DOC/EXT_OFF/`.
 2. Verificar licencias y registrar en BIT.
 3. Auditoría trimestral `WF_AUDIT_EXT_OFF`.
+
+
+### INT·BK·REF — Respaldo interno de referencia
+1. Guardar en `/BACKUP/INT/`.
+2. Etiquetar `STA=BCK` y registrar en BIT.
+3. Auditoría semestral `WF_AUDIT_BACKUP`.
+
+### EXT‑OFF·BK·CORE — Respaldo externo oficial
+1. Almacenar en `/BACKUP/EXT_OFF/` con checksum.
+2. Revisar licencias antes de archivarlo.
+3. Auditoría anual `WF_AUDIT_EXT_OFF`.
+
+### EXT‑COM·AC·TL — Activos comunitarios de Training
+1. Guardar en `/KNS/TL/EXT_COM/`.
+2. Validar integridad y origen.
+3. Ejecutar `WF_TRAIN_EXT_COM` para integrar feedback.
+
+### AI·DR·TL — Draft IA para entrenamiento
+1. Crear en `/TMP/AI/` con prefijo `draft_`.
+2. Revisar coherencia antes de mover a `/KNS/TL`.
+3. Auditoría rápida `WF_AUDIT_TL`.
+
+=======
 
 
 Añadir subsecciones similares para cada combinación relevante.
