@@ -25,6 +25,7 @@
 - Generado `registro_trazabilidad_total.md` con script de mapeo.
 - Nueva fila `INT·AC` y procedimiento `INT·AC·CORE` en Matrix v1.
 - Agregados triggers `TRG_AUDIT_TL` y `TRG_CONSOLIDATE_TL` en glosario y diccionario.
+- Documentado el archivo `registro_trazabilidad_total.md` en el README principal.
 
 ---
 
