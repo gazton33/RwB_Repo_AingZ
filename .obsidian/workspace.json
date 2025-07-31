@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledges/rw_b_knowledges_rdm_v_0.md",
+                "file": "readme_rw_b_repo_main_v_5_20250730_activo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rw_b_knowledges_rdm_v_0"
+              "title": "readme_rw_b_repo_main_v_5_20250730_activo"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "d11cf11cdc2c6ea0",
   "lastOpenFiles": [
+    "README.md",
     "knowledges/README.md",
     "knowledges/rw_b_knowledges_rdm_v_0.md",
     "Learn/README.md",
@@ -197,7 +198,6 @@
     "readme_rw_b_repo_main_v_5_20250730_activo.md",
     "mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md",
     "chglog_main_rwb_v_5_20250730_actv.md",
-    "registro_trazabilidad_total.md",
     "tests/__init__.py",
     "tests/test_mapping.py",
     "tests/test_class_scan.py",
