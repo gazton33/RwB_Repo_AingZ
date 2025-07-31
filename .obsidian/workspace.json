@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme_rw_b_repo_main_v_5_20250730_activo.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "readme_rw_b_repo_main_v_5_20250730_activo"
+              "title": "README.md"
             }
           }
         ]
@@ -188,14 +188,14 @@
     "knowledges/ctx/kns_ctx_legacy_migracion_final_20250725.md",
     "chglog_main_rwb_20250725_v_2.md",
     "purgatorio/mpln_master_plan_aingz_rw_b_v_20250725_v_2.md",
-    "purgatorio/chglog_main_rwb_v_4_20250729.md",
+    "purgatorio/chglog_main_rwb_v_5_20250730_actv.md",
     "purgatorio/chglog_main_rwb_20250725_v_2.md",
     "purgatorio/readme_v_4_rw_b_repo_20250729.md",
-    "purgatorio/readme.md",
-    "purgatorio/mpln_master_plan_aingz_rw_b_v_20250729_v_3.md",
+    "purgatorio/README.md",
+    "purgatorio/mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md",
     "purgatorio",
     "Nueva carpeta",
-    "readme_rw_b_repo_main_v_5_20250730_activo.md",
+    "README.md",
     "mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md",
     "chglog_main_rwb_v_5_20250730_actv.md",
     "tests/__init__.py",

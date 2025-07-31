@@ -7,12 +7,18 @@
 ---
 
 ## 2025-07-30 — Release v5
-- Consolidación **README v2 + v4 → v5** (`readme_rw_b_repo_main_v5_20250730.md`).
-- Consolidación **MasterPlan v2 + v3 → v4** (`mpln_master_plan_aingz_rw_b_v_20250730_v4.md`).
+- Consolidación **README v2 + v4 → v5** (`README.md`).
+- Consolidación **MasterPlan v2 + v3 → v4** (`mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`).
 - Refactor integral del presente **CHGLOG** con copiado literal de versiones previas (v2 y v4).
 - Re‑alineación de referencias al blueprint DirArchPlan v4, glosario v2, diccionario v2 y Matrix v1.
 - Checklist QA añadido al workflow `WF_CONS_ACTV`.
-- Añadido `README.md` en la raíz (copia literal de `readme_rw_b_repo_main_v_5_20250730_activo.md`).
+- Añadido `README.md` en la raíz (copia literal de `README.md`).
+
+## 2025-07-31 — Actualización de referencias
+- Unificación de enlaces a `README.md`.
+- Actualizado MasterPlan y DirArchPlan a nuevas versiones.
+- Reemplazo de changelog v4 por `chglog_main_rwb_v_5_20250730_actv.md`.
+- Enlaces al glosario apuntan ahora a `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`.
 
 ---
 

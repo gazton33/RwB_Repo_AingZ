@@ -11,8 +11,8 @@ This document consolidates important instructions, context, and file snapshots f
 ---
 
 ## 1. Archivos clave
-- **README principal** (`readme.md`): describe la estructura general, reglas de operación y comandos básicos de instalación y pruebas.
-- **Master Plan** (`mpln_master_plan_aingz_rw_b_v_20250729_v_3.md`): hoja de ruta y pilares de evolución.
+- **README principal** (`README.md`): describe la estructura general, reglas de operación y comandos básicos de instalación y pruebas.
+- **Master Plan** (`mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`): hoja de ruta y pilares de evolución.
 - **Blueprint de directorio** (`rw_b_dir_arch_plan_v_4_20250729.md`): mapea los buckets principales y sus roles.
 - **Glosario CODE v2** (`knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`): normativa de códigos y jerarquía de nombres.
 - **Diccionario de Triggers v2** (`rw_b_diccionario_code_triggers_v_2_20250729.md`): lookup rápido para prompts y scripts.
@@ -45,7 +45,7 @@ This document consolidates important instructions, context, and file snapshots f
 2. Completar el mapeo de archivos legacy con `python scripts/mapping.py`.
 3. Sincronizar glosario y diccionario.
 4. Ejecutar pruebas `pytest` tras cada iteración.
-5. Registrar cambios en `chglog_main_rwb_v_4_*.md` y actualizar `registro_trazabilidad_total.md`.
+5. Registrar cambios en `chglog_main_rwb_v_5_20250730_actv.md` y actualizar `registro_trazabilidad_total.md`.
 
 ## 4. Buenas prácticas para uso de ChatGPT
 - **Chunking y resúmenes** de archivos extensos.
@@ -54,8 +54,8 @@ This document consolidates important instructions, context, and file snapshots f
 - **Monitoreo regular** del tamaño de conversación.
 
 ## 5. Archivos sugeridos para adjuntar completos
-1. `readme.md`
-2. `mpln_master_plan_aingz_rw_b_v_20250729_v_3.md`
+1. `README.md`
+2. `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`
 3. `rw_b_dir_arch_plan_v_4_20250729.md`
 4. `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`
 5. `rw_b_diccionario_code_triggers_v_2_20250729.md`
@@ -91,7 +91,7 @@ El propósito central es *optimizar integralmente la eficiencia, precisión y pe
 
 ## 3. Snapshots of Key Files
 
-### readme.md
+### README.md
 ```markdown
 # README_CONSOLIDADO_AINGZ_MAIN_20250725_v2.md — Archivo raíz consolidado (AingZ, v2 - 2025-07-25)
 
@@ -104,7 +104,7 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 
 ## 2. Estructura general del repositorio (RawBase 2025)
 - **WF/** – Workflows activos, logs y bitácora de versiones (`chg_log_wf_purgatorio_20250725.md`)
-- **knowledges/** – Glosario, contextos y lessons learned (`rw_b_glosario_code_v_1_core_20250725.md`)
+- **knowledges/** – Glosario, contextos y lessons learned (`knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`)
 - **Learn/** – Memoria viva incremental
 - **template/** – Plantillas de naming y README
 - **AUDT/** – Auditorías legacy y bitácoras (`CHG_LOG_AUDITORIA_20250725.md`)
@@ -117,7 +117,7 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 ---
 
 ## 3. Reglas y metodología de operación
-- Seguir siempre el glosario core (`knowledges/rw_b_glosario_code_v_1_core.md`) y plantilla de naming (`template/naming/rw_b_naming_template_v_1.md`).
+- Seguir siempre el glosario core (`knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`) y plantilla de naming (`template/naming/rw_b_naming_template_v_1.md`).
 - Usar el plan de directorio (`rwb_repo_directory_plan_v_1.md`), workflows (`WF/`), logs y bitácoras como referencia operativa.
 - Toda acción (movimiento, auditoría, integración) debe registrar logs en el archivo o carpeta correspondiente y actualizar el changelog maestro.
 - Checklist de cobertura, versionado y referenciación cruzada antes de cada merge, integración o purga.
@@ -182,7 +182,7 @@ revisa el workflow [`WF_INICIO_REPO_CHECK`](WF/rw_b_wf_inicio_repo_check_v_1_202
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 ```
 
-### mpln_master_plan_aingz_rw_b_v_20250729_v_3.md
+### mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md
 ```markdown
 # 🏗️ MPLN_MASTER_PLAN_AINGZ_RW_B — v3 (2025-07-29)
 > **Blueprint arquitectónico y hoja de ruta maestra** del repo RwB.  
@@ -192,7 +192,7 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ---
 
 ## 🔝 Pilares de la evolución actual (v3)
-1. **Alineación absoluta a blueprint de directorios**: todos los activos deben estar ubicados y nombrados según [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v4_20250729.md).
+1. **Alineación absoluta a blueprint de directorios**: todos los activos deben estar ubicados y nombrados según [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v_4_20250729.md).
 2. **Glosario y Diccionario CODE v2**: máxima jerarquía en naming, roles, features IA y prompts.
 3. **Matriz de clasificación de assets**: codificación `SRC·STG·ROLE` y rutas de consolidación.
 4. **Buckets y workflows nuevos**: `/KNS/TL`, `/AUDIT_LIGHT`, `/TMP`, `/MIG`, `/PURGATORIO/LEGACY`, dictado por voz, training/tuning IA y migración literal.
@@ -230,7 +230,7 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ## 📝 Referencias y enlaces clave
 - [Glosario CODE v2](rw_b_glosario_code_v_2_20250729.md)
 - [Diccionario CODE_TRIGGERS v2](rw_b_diccionario_code_triggers_v_2_20250729.md)
-- [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v4_20250729.md)
+- [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v_4_20250729.md)
 - [Assets Classification Matrix v1](rw_b_assets_classification_matrix_v1_20250729.md)
 - [CHGLOG_MAIN_RWB v4](chglog_main_rwb_v4_20250729.md)
 - [ONBRD_WELCOME](onbrd_welcome_onboarding_gz_rw_b_v_20250725.md)
@@ -556,7 +556,7 @@ Repo Root /
 | B01 | CTX | Context | "🌐 CTX:MyProj" | Context | MD | ctx.md |
 | B02 | LYR | Layer | "📐 LYR:Data" | Struct | MD | arch.md |
 | B03 | DOM | Domain | "🏗️ DOM:Hydro" | Struct | MD | arch.md |
-| B04 | USC | UserScope | "👤 USC:PR" | Struct | MD | readme.md |
+| B04 | USC | UserScope | "👤 USC:PR" | Struct | MD | README.md |
 | B05 | MOD | Module | "🧩 MOD AUTH" | Struct | PY | mod.py |
 | B06 | CAT | Category | "🗂️ CAT:ETL" | Struct | MD | wf.md |
 | B07 | TSK | Task | "⚡ TSK CLEAN" | Task | PY | task.py |
@@ -661,8 +661,8 @@ Se complementa con el README consolidado, el MasterPlan (MPLN) y el glosario viv
 ---
 
 ## 2. Primeros pasos y estructura base
-1. Leer el README consolidado (`README_CONSOLIDADO_AINGZ_MAIN_20250725.md`) y el MasterPlan (`MPLN_MASTER_PLAN_AINGZ_RW_B_v_20250725.md`).
-2. Familiarizarse con la estructura de carpetas y naming (ver glosario `rw_b_glosario_code_v_1_core.md`).
+1. Leer el README consolidado (`README_CONSOLIDADO_AINGZ_MAIN_20250725.md`) y el MasterPlan (`mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`).
+2. Familiarizarse con la estructura de carpetas y naming (ver glosario `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`).
 3. Revisar los workflows activos (`WF/`), templates de naming y logs/changelogs de cada ciclo.
 4. Para onboarding IA/agente: sincronizar glosario, mapeos y reglas del pipeline operativo.
 
@@ -677,9 +677,9 @@ Se complementa con el README consolidado, el MasterPlan (MPLN) y el glosario viv
 ---
 
 ## 4. Links útiles y recursos
-- **Glosario:** `KNOWLEDGES/rw_b_glosario_code_v_1_core.md`
+- **Glosario:** `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`
 - **README consolidado:** `README_CONSOLIDADO_AINGZ_MAIN_20250725.md`
-- **MasterPlan:** `MPLN_MASTER_PLAN_AINGZ_RW_B_v_20250725.md`
+- **MasterPlan:** `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`
 - **Workflow auditoría:** `WF/rw_b_wf_auditoria_legacy_v_2_20250724.md` y `WF/rw_b_wf_consolidacion_files_activos_v2_20250725.md`
 - **Templates y naming:** `template/`, `template/naming/`
 - **Logs/changelog:** `LOG/`, `KNOWLEDGES/LEARN/`
@@ -978,7 +978,7 @@ if __name__ == '__main__':
 | W02 | Scan cambios locales     | DIFF      | `git status` + `git diff` para detectar modificaciones.      | `diff_session.log`                      |
 | W03 | Mapping Legacy           | MAP       | Ejecutar `python scripts/mapping.py --no-header`.            | `registro_trazabilidad_total.md`        |
 | W04 | CrossRef Matrix/Glosario | XRF       | Validar códigos nuevos vs Matrix y Glosario.                 | `xrf_report.md`                         |
-| W05 | Actualizar Changelog     | CHG       | Registrar entrada de sesión en `chglog_main_rwb_v_4*.md`.    | changelog actualizado                   |
+| W05 | Actualizar Changelog     | CHG       | Registrar entrada de sesión en `chglog_main_rwb_v_5_20250730_actv.md`.    | changelog actualizado                   |
 | W06 | Correr Pruebas           | TST       | `pytest -q` para validar scripts.                            | reporte pytest                          |
 | W07 | Commit sesión            | GIT       | `git add` + `git commit` (push opcional).                    | commit                                  |
 

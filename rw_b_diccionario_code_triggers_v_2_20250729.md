@@ -16,7 +16,7 @@
 | B01 | CTX | Context | "🌐 CTX:MyProj" | Context | MD | ctx.md |
 | B02 | LYR | Layer | "📐 LYR:Data" | Struct | MD | arch.md |
 | B03 | DOM | Domain | "🏗️ DOM:Hydro" | Struct | MD | arch.md |
-| B04 | USC | UserScope | "👤 USC:PR" | Struct | MD | readme.md |
+| B04 | USC | UserScope | "👤 USC:PR" | Struct | MD | README.md |
 | B05 | MOD | Module | "🧩 MOD AUTH" | Struct | PY | mod.py |
 | B06 | CAT | Category | "🗂️ CAT:ETL" | Struct | MD | wf.md |
 | B07 | TSK | Task | "⚡ TSK CLEAN" | Task | PY | task.py |
