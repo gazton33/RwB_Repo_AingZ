@@ -9,8 +9,8 @@ Se complementa con el README consolidado, el MasterPlan (MPLN) y el glosario viv
 ---
 
 ## 2. Primeros pasos y estructura base
-1. Leer el README consolidado (`README_CONSOLIDADO_AINGZ_MAIN_20250725.md`) y el MasterPlan (`MPLN_MASTER_PLAN_AINGZ_RW_B_v_20250725.md`).
-2. Familiarizarse con la estructura de carpetas y naming (ver glosario `rw_b_glosario_code_v_1_core.md`).
+1. Leer el README consolidado (`README.md`) y el MasterPlan (`mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`).
+2. Familiarizarse con la estructura de carpetas y naming (ver glosario `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`).
 3. Revisar los workflows activos (`WF/`), templates de naming y logs/changelogs de cada ciclo.
 4. Para onboarding IA/agente: sincronizar glosario, mapeos y reglas del pipeline operativo.
 
@@ -25,10 +25,10 @@ Se complementa con el README consolidado, el MasterPlan (MPLN) y el glosario viv
 ---
 
 ## 4. Links útiles y recursos
-- **Glosario:** `KNOWLEDGES/rw_b_glosario_code_v_1_core.md`
-- **README consolidado:** `README_CONSOLIDADO_AINGZ_MAIN_20250725.md`
-- **MasterPlan:** `MPLN_MASTER_PLAN_AINGZ_RW_B_v_20250725.md`
-- **Workflow auditoría:** `WF/rw_b_wf_auditoria_legacy_v_2_20250724.md` y `WF/rw_b_wf_consolidacion_files_activos_v2_20250725.md`
+ - **Glosario:** `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`
+ - **README consolidado:** `README.md`
+ - **MasterPlan:** `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`
+ - **Workflow auditoría:** `WF/rw_b_wf_auditoria_legacy_v_3_20250725.md`
 - **Templates y naming:** `template/`, `template/naming/`
 - **Logs/changelog:** `LOG/`, `KNOWLEDGES/LEARN/`
 

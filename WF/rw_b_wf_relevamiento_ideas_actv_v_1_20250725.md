@@ -8,7 +8,7 @@ Definir el procedimiento literal y modular para barrido de ideas, brainstorming,
 ---
 
 ## 2. Archivos y rutas requeridas
-- Glosario: `rw_b_glosario_code_v_1_core.md`
+ - Glosario: `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`
 - Workflow central: `wk_feedtrn_eval_actv_raw_v_2_20250725.md`
 - Workflow cierre hilo: `rw_b_wf_auditoria_cierre_hilo_actv_v_1_20250725.md`
 

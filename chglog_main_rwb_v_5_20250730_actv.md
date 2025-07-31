@@ -13,6 +13,7 @@
 - Re‑alineación de referencias al blueprint DirArchPlan v4, glosario v2, diccionario v2 y Matrix v1.
 - Checklist QA añadido al workflow `WF_CONS_ACTV`.
 - Añadido `README.md` en la raíz (copia literal de `readme_rw_b_repo_main_v_5_20250730_activo.md`).
+- Actualizados enlaces: `README.md`, `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`, glosario v2 y workflow auditoría v3; retirado link inexistente de consolidación.
 
 ---
 

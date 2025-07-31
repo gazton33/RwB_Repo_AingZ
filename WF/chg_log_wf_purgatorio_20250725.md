@@ -15,7 +15,7 @@
 ---
 
 ## 3. Archivos activos/actuales (WF/)
-- `rw_b_wf_consolidacion_files_activos_v_2_20250725.md`
+ - ~~`rw_b_wf_consolidacion_files_activos_v_2_20250725.md`~~ (retirado)
 - `rw_b_wf_auditoria_legacy_v_3_20250725.md`
 - `wf_migracion_final_legacy_rw_b_v_1_20250725.md`
 - `rw_b_wf_relevamiento_ideas_v_1.md`
