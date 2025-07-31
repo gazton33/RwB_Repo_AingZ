@@ -11,14 +11,10 @@
             "id": "d11cf11cdc2c6ea0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "readme_rw_b_repo_main_v_5_20250730_activo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "readme_rw_b_repo_main_v_5_20250730_activo"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -170,11 +166,25 @@
   },
   "active": "d11cf11cdc2c6ea0",
   "lastOpenFiles": [
+    "WF/rw_b_wf_auditoria_cierre_hilo_actv_v_1_20250725.md",
+    "doc/bliblioteca_refencia/matriz_limites_contexto_chatgpt_v_1.md",
+    "desarrollo/kns_ctx_o_3_41_analisis_integracion.md",
+    "desarrollo/barrido_literal_ctx_vivo_y_feedback_aprendizaje.md",
+    "desarrollo/readme_legacy_core_rw_b.md",
+    "desarrollo/politica_cierre_eliminacion_purgatorio.md",
+    "desarrollo/directorio_activos_desarrollo_staging.md",
+    "desarrollo/barrido_literal_redefinicion_legacy.md",
+    "desarrollo/idea_brainstorm_limites_ctx_tokens_md.md",
+    "desarrollo/dir_arch_plan_v_5_integracion_matrix.md",
+    "desarrollo/arch_research_core_rw_b_v_1.md",
+    "matrices/rw_b_assets_classification_matrix_v_1_20250729.md",
+    "desarrollo",
+    "Nueva carpeta",
+    "rw_b_dir_arch_plan_v_4_20250729.md",
     "README.md",
     "knowledges/README.md",
     "knowledges/rw_b_knowledges_rdm_v_0.md",
     "Learn/README.md",
-    "matrices/rw_b_assets_classification_matrix_v_1_20250729.md",
     "matrices/README.md",
     "matrices/Matriz Precedencia Instrucciones Full Custom Infraestructura.md",
     "matrices/control-cruce-matriz-raw-vs-extendida.md",
@@ -184,27 +194,13 @@
     "knowledges/knowledge_gz_project_insights.md",
     "knowledges/Knowledge Base Matriz Precedencia Templates Universales Raw.md",
     "knowledges/data_matriz_extendida_features_chatgpt_workflow_v_1_activo_20250730.md",
-    "rw_b_dir_arch_plan_v_4_20250729.md",
-    "knowledges/ctx/kns_ctx_legacy_migracion_final_20250725.md",
-    "chglog_main_rwb_20250725_v_2.md",
-    "purgatorio/mpln_master_plan_aingz_rw_b_v_20250725_v_2.md",
-    "purgatorio/chglog_main_rwb_v_4_20250729.md",
-    "purgatorio/chglog_main_rwb_20250725_v_2.md",
-    "purgatorio/readme_v_4_rw_b_repo_20250729.md",
-    "purgatorio/readme.md",
-    "purgatorio/mpln_master_plan_aingz_rw_b_v_20250729_v_3.md",
     "purgatorio",
-    "Nueva carpeta",
-    "readme_rw_b_repo_main_v_5_20250730_activo.md",
-    "mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md",
-    "chglog_main_rwb_v_5_20250730_actv.md",
     "tests/__init__.py",
     "tests/test_mapping.py",
     "tests/test_class_scan.py",
     "tests",
     "requirements.txt",
     "backup/purgatorio",
-    "backup",
-    "LICENSE"
+    "backup"
   ]
 }
