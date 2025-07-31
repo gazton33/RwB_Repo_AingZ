@@ -12,17 +12,17 @@
 | ----------------------------------------------------- | -------------------------------------------------------------------- |
 | `rw_b_glosario_code_v_2_20250729.md`                  | Glosario maestro: jerarquía, naming, roles, features                 |
 | `rw_b_diccionario_code_triggers_v_2_20250729.md`      | Diccionario rápido triggers/prompt/code                              |
-| `rw_b_dir_arch_plan_v4_20250729.md`                   | Blueprint de directorios & mapping                                   |
-| `rw_b_assets_classification_matrix_v1_20250729.md`    | Matriz 3D Origen×Etapa×Rol                                           |
-| `chglog_main_rwb_v5_20250730_ACTIVO.md`               | Changelog principal consolidado (histórico completo, auto-contenido) |
-| `mpln_master_plan_aingz_rw_b_v_20250730_v4_ACTIVO.md` | MasterPlan arquitectónico ACTIVO                                     |
+| `rw_b_dir_arch_plan_v_4_20250729.md`                  | Blueprint de directorios & mapping                                   |
+| `rw_b_assets_classification_matrix_v_1_20250729.md`   | Matriz 3D Origen×Etapa×Rol                                           |
+| `chglog_main_rwb_v_5_20250730_actv.md`                | Changelog principal consolidado (histórico completo, auto-contenido) |
+| `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`| MasterPlan arquitectónico ACTIVO                                     |
 | `onbrd_welcome_onboarding_gz_rw_b_v_20250725.md`      | Onboarding & flujos iniciales                                        |
 
 ---
 
 ## 📦 Estructura del repo (resumen DIR\_ARCH\_PLAN v4)
 
-> **Referencia extendida**: ver `rw_b_dir_arch_plan_v4_20250729.md`.
+> **Referencia extendida**: ver `rw_b_dir_arch_plan_v_4_20250729.md`.
 
 ```
 / (root)
@@ -84,7 +84,7 @@ Revisa `WF_INICIO_REPO_CHECK` antes de cada sesión.
 
 - Dictado por voz, tuning y training IA → `/KNS/TL` o `/TMP`.
 - Validar rutas con DirArchPlan v4 antes de mover/consolidar.
-- Mantener changelog maestro (`chglog_main_rwb_v5_20250730_ACTIVO.md`) actualizado.
+- Mantener changelog maestro (`chglog_main_rwb_v_5_20250730_actv.md`) actualizado.
 
 ---
 
