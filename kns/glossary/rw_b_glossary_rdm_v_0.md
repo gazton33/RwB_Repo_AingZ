@@ -19,14 +19,14 @@ La subcarpeta Glossary centraliza **todos los glosarios, diccionarios y mappings
 ## Buenas prácticas y guidelines
 - Mantener siempre versión y changelog
 - Cada nuevo término debe tener código, nombre nativo y descripción breve
- - Validar siempre contra el [Glosario central](rw_b_glosario_code_v_0_core.md) antes de incorporar o editar
+ - Validar siempre contra el [Glosario central](rw_b_glosario_code_v_2_20250729.md) antes de incorporar o editar
 
 ---
 
 ## Referencias
  - [Naming Template](../../template/naming/rw_b_naming_template_v_1.md)
-- [rw_b_glosario_code_v_0_core.md](rw_b_glosario_code_v_0_core.md)
-- [README de carpeta Knowledges](../rw_b_knowledges_rdm_v_0.md)
+- [rw_b_glosario_code_v_2_20250729.md](rw_b_glosario_code_v_2_20250729.md)
+- [README de carpeta KNS](../readme.md)
 
 **FIN RDM — GLOSSARY SUBFOLDER v0**
 

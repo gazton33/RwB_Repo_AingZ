@@ -14,7 +14,7 @@ Repositorio de workflows operativos: auditoría, dictado, relevamientos y migrac
 - `wk_feedtrn_eval_actv_raw_v_2_20250725.md`
 
 Cada archivo sigue el [naming ruleset](../template/naming/rw_b_naming_ruleset_v_2_20250727.md) y enlaza a la memoria viva en `Learn/`.
-Para códigos y prefijos consulta el [glosario CODE v2](../knowledges/glossary/rw_b_glosario_code_v_2_20250729.md) y el [diccionario CODE_TRIGGERS v2](../rw_b_diccionario_code_triggers_v_2_20250729.md).
+Para códigos y prefijos consulta el [glosario CODE v2](../kns/glossary/rw_b_glosario_code_v_2_20250729.md) y el [diccionario CODE_TRIGGERS v2](../rw_b_diccionario_code_triggers_v_2_20250729.md).
 
 ## Referencias
 - [Changelog de Workflows](chg_log_wf_purgatorio_20250725.md)

@@ -1,7 +1,7 @@
 # [RwB] NAMING RULESET — v2 (2025-07-27)
 
 > Actualización de las reglas de nombrado para todo el repositorio.
-> Se basa en los códigos del glosario core (`knowledges/glossary/`) y sustituye la versión v1.
+> Se basa en los códigos del glosario core (`../kns/glossary/`) y sustituye la versión v1.
 
 ---
 

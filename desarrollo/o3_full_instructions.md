@@ -12,9 +12,9 @@ This document consolidates important instructions, context, and file snapshots f
 
 ## 1. Archivos clave
 - **README principal** (`readme.md`): describe la estructura general, reglas de operación y comandos básicos de instalación y pruebas.
-- **Master Plan** (`mpln_master_plan_aingz_rw_b_v_20250729_v_3.md`): hoja de ruta y pilares de evolución.
-- **Blueprint de directorio** (`rw_b_dir_arch_plan_v_4_20250729.md`): mapea los buckets principales y sus roles.
-- **Glosario CODE v2** (`knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`): normativa de códigos y jerarquía de nombres.
+ - **Master Plan** (`mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`): hoja de ruta y pilares de evolución.
+ - **Blueprint de directorio** (`dir_arch_plan_v_5_integracion_matrix.md`): mapea los buckets principales y sus roles.
+ - **Glosario CODE v2** (`kns/glossary/rw_b_glosario_code_v_2_20250729.md`): normativa de códigos y jerarquía de nombres.
 - **Diccionario de Triggers v2** (`rw_b_diccionario_code_triggers_v_2_20250729.md`): lookup rápido para prompts y scripts.
 - **Workflow de inicio** (`WF/rw_b_wf_inicio_repo_check_v_1_20250731.md`): rutina de control al comenzar cada sesión.
 - **Checklist de avances** (`rw_b_checklist_avances_v_1_20250730.md`): lista de tareas ejecutadas y pendientes.
@@ -24,7 +24,7 @@ This document consolidates important instructions, context, and file snapshots f
 - **Guía de bienvenida** (`onbrd_welcome_onboarding_gz_rw_b_v_20250725.md`).
 - **Reglas de naming** (`template/naming/`).
 
-## 2. Estructura de carpetas (según DIR_ARCH_PLAN v4)
+## 2. Estructura de carpetas (según DIR_ARCH_PLAN v5)
 ```
 / (root)
 ├── WF/
@@ -55,9 +55,9 @@ This document consolidates important instructions, context, and file snapshots f
 
 ## 5. Archivos sugeridos para adjuntar completos
 1. `readme.md`
-2. `mpln_master_plan_aingz_rw_b_v_20250729_v_3.md`
-3. `rw_b_dir_arch_plan_v_4_20250729.md`
-4. `knowledges/glossary/rw_b_glosario_code_v_2_20250729.md`
+2. `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`
+3. `dir_arch_plan_v_5_integracion_matrix.md`
+4. `kns/glossary/rw_b_glosario_code_v_2_20250729.md`
 5. `rw_b_diccionario_code_triggers_v_2_20250729.md`
 6. `onbrd_welcome_onboarding_gz_rw_b_v_20250725.md`
 7. `rw_b_checklist_avances_v_1_20250730.md`
@@ -104,20 +104,20 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 
 ## 2. Estructura general del repositorio (RawBase 2025)
 - **WF/** – Workflows activos, logs y bitácora de versiones (`chg_log_wf_purgatorio_20250725.md`)
-- **knowledges/** – Glosario, contextos y lessons learned (`rw_b_glosario_code_v_1_core_20250725.md`)
+ - **kns/** – Glosario, contextos y lessons learned (`rw_b_glosario_code_v_2_20250729.md`)
 - **Learn/** – Memoria viva incremental
 - **template/** – Plantillas de naming y README
 - **AUDT/** – Auditorías legacy y bitácoras (`CHG_LOG_AUDITORIA_20250725.md`)
 - **doc/** – Documentación formal y master-plans
 - **scripts/** – Utilidades y ETL
 - **registro_trazabilidad_total.md** – Mapeo automático de archivos legacy → RwB (generado con `scripts/mapping.py`)
-- **matrices/** – Matrices de precedencia y trazabilidad
+- **mtx/** – Matrices de precedencia y trazabilidad
 - **backup/** – Respaldo y purgatorio (`backup/purgatorio/`)
 
 ---
 
 ## 3. Reglas y metodología de operación
-- Seguir siempre el glosario core (`knowledges/rw_b_glosario_code_v_1_core.md`) y plantilla de naming (`template/naming/rw_b_naming_template_v_1.md`).
+- Seguir siempre el glosario core (`kns/glossary/rw_b_glosario_code_v_2_20250729.md`) y plantilla de naming (`template/naming/rw_b_naming_template_v_1.md`).
 - Usar el plan de directorio (`rwb_repo_directory_plan_v_1.md`), workflows (`WF/`), logs y bitácoras como referencia operativa.
 - Toda acción (movimiento, auditoría, integración) debe registrar logs en el archivo o carpeta correspondiente y actualizar el changelog maestro.
 - Checklist de cobertura, versionado y referenciación cruzada antes de cada merge, integración o purga.
@@ -128,7 +128,7 @@ Este README centraliza las referencias, estructura, reglas y logs para operar el
 ## 4. Onboarding, logs y changelogs
 - La guía de bienvenida (`ONBRD_WELCOME_ONBOARDING_GZ_RW_B_v_20250725.md`) es la referencia inicial para cualquier usuario o IA.
 - Logs y changelogs incrementales se mantienen por subcarpeta y se unifican en `CHG_LOG_MAIN_AINGZ_20250725.md`.
-- Cada carpeta relevante debe incluir su bitácora o log (WF, AUDT, knowledges, doc). Las guías de onboarding y el master plan se mantienen en archivos raíz.
+- Cada carpeta relevante debe incluir su bitácora o log (WF, AUDT, kns, doc). Las guías de onboarding y el master plan se mantienen en archivos raíz.
 - Toda actualización mayor debe reflejarse en este README y el changelog principal.
 
 ---
@@ -182,17 +182,17 @@ revisa el workflow [`WF_INICIO_REPO_CHECK`](WF/rw_b_wf_inicio_repo_check_v_1_202
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 ```
 
-### mpln_master_plan_aingz_rw_b_v_20250729_v_3.md
+### mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md
 ```markdown
-# 🏗️ MPLN_MASTER_PLAN_AINGZ_RW_B — v3 (2025-07-29)
+# 🏗️ MPLN_MASTER_PLAN_AINGZ_RW_B — v4 (2025-07-30)
 > **Blueprint arquitectónico y hoja de ruta maestra** del repo RwB.  
 > Esta versión integra la reorganización por matrices, blueprint de directorios, workflows iterativos y clasificación de assets en ciclo de vida.
-> **Referenciado obligatoriamente en README, DirArchPlan v4, Changelog, Glosario v2 y Matrix v1.**
+> **Referenciado obligatoriamente en README, DirArchPlan v5, Changelog, Glosario v2 y Matrix v1.**
 
 ---
 
-## 🔝 Pilares de la evolución actual (v3)
-1. **Alineación absoluta a blueprint de directorios**: todos los activos deben estar ubicados y nombrados según [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v_4_20250729.md).
+## 🔝 Pilares de la evolución actual (v4)
+1. **Alineación absoluta a blueprint de directorios**: todos los activos deben estar ubicados y nombrados según [DIR_ARCH_PLAN v5](dir_arch_plan_v_5_integracion_matrix.md).
 2. **Glosario y Diccionario CODE v2**: máxima jerarquía en naming, roles, features IA y prompts.
 3. **Matriz de clasificación de assets**: codificación `SRC·STG·ROLE` y rutas de consolidación.
 4. **Buckets y workflows nuevos**: `/KNS/TL`, `/AUDIT_LIGHT`, `/TMP`, `/MIG`, `/PURGATORIO/LEGACY`, dictado por voz, training/tuning IA y migración literal.
@@ -203,7 +203,7 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ## 📅 Roadmap resumido
 | Fase | Hito | Output clave | Bucket/dir destino | Fecha |
 |------|------|-------------|-------------------|-------|
-| 1    | Reorganización directorios y assets | Blueprint DirArchPlan v4 | `/` | 2025-07-29 |
+| 1    | Reorganización directorios y assets | Blueprint DirArchPlan v5 | `/` | 2025-07-29 |
 | 2    | Glosario v2, Diccionario v2 | Naming y triggers final | `/KNS`, `/DOC` | 2025-07-29 |
 | 3    | Matrix v1 | Código compuesto, QA procesos | `/KNS` | 2025-07-29 |
 | 4    | Workflows dictado/auditoría/migración | Procedimientos y scripts | `/WF` | 2025-07-29 |
@@ -213,14 +213,14 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ---
 
 ## 🗂️ Integración y dependencias
-- Todos los cambios y nuevos buckets deben referenciarse en [CHGLOG_MAIN_RWB v4](chglog_main_rwb_v4_20250729.md).
+- Todos los cambios y nuevos buckets deben referenciarse en [CHGLOG_MAIN_RWB v5](chglog_main_rwb_v_5_20250730_actv.md).
 - El onboarding inicial y workflows activos residen en `/DOC/ONBRD/` y `/WF/`.
 - Los procedimientos de consolidación, migración y auditoría se ejecutan secuencialmente según Matrix v1.
 
 ---
 
 ## 🔄 Procedimientos clave
-- **Para cada nuevo asset**: determinar `SRC·STG·ROLE` y ubicarlo según DirArchPlan v4.
+- **Para cada nuevo asset**: determinar `SRC·STG·ROLE` y ubicarlo según DirArchPlan v5.
 - **Relevamientos**: outputs RAW en `/KNS`, análisis en `/AUDIT_LIGHT`, migración consolidada en `/MIG`.
 - **Auditorías**: outputs livianos en `/AUDIT_LIGHT`, cierre y registros en `/LOG/AUDT`.
 - **Entrenamiento IA / Dictado**: resultados en `/KNS/TL` y `/TMP`, ciclos de retroalimentación IA con consolidación periódica.
@@ -230,9 +230,9 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ## 📝 Referencias y enlaces clave
 - [Glosario CODE v2](rw_b_glosario_code_v_2_20250729.md)
 - [Diccionario CODE_TRIGGERS v2](rw_b_diccionario_code_triggers_v_2_20250729.md)
-- [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v_4_20250729.md)
+- [DIR_ARCH_PLAN v5](dir_arch_plan_v_5_integracion_matrix.md)
 - [Assets Classification Matrix v1](rw_b_assets_classification_matrix_v_1_20250729.md)
-- [CHGLOG_MAIN_RWB v4](chglog_main_rwb_v4_20250729.md)
+- [CHGLOG_MAIN_RWB v5](chglog_main_rwb_v_5_20250730_actv.md)
 - [ONBRD_WELCOME](onbrd_welcome_onboarding_gz_rw_b_v_20250725.md)
 
 ---
@@ -242,13 +242,13 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 
 ---
 
-**FIN MPLN_MASTER_PLAN_AINGZ_RW_B v3**
+**FIN MPLN_MASTER_PLAN_AINGZ_RW_B v4**
 
 ```
 
-### rw_b_dir_arch_plan_v_4_20250729.md
+### dir_arch_plan_v_5_integracion_matrix.md
 ```markdown
-# 🗂️ [RwB] DIR\_ARCH\_PLAN — v4 (CORE, 2025-07-29)
+# 🗂️ [RwB] DIR\_ARCH\_PLAN — v5 (Integración Matrix RwB, 2025-07-31)
 
 > **Blueprint definitivo — integra la matriz de clasificación de assets y los nuevos flujos de procedimientos por voz.**\
 > **Referencia cruzada:** Este plan debe usarse junto al *Assets Classification Matrix v1*, *WF\_RELEV\_HILO\_ASSETS v1*, *Glosario CODE v2*, y *CONCEPTOS CICLO DE VIDA v1*.\
@@ -349,14 +349,14 @@ Repo Root /
 
 ## 📑 Changelog
 
-- 2025-07-29 · **v4** · Blueprint extendido para soportar dictado por voz, matriz de assets, entrenamiento IA y nuevos buckets.
+- 2025-07-31 · **v5** · Blueprint extendido para soportar dictado por voz, matriz de assets, entrenamiento IA y nuevos buckets.
 
 ## ℹ️ Metadatos
 
 | Campo        | Valor                           |
 | ------------ | ------------------------------- |
-| Versión      | v4                              |
-| Fecha        | 2025-07-29                      |
+| Versión      | v5                              |
+| Fecha        | 2025-07-31                      |
 | Matrix ref   | Assets Classification Matrix v1 |
 | Glosario ref | v2                              |
 
@@ -368,11 +368,11 @@ Repo Root /
 
 ---
 
-**FIN — DIR\_ARCH\_PLAN v4**
+**FIN — DIR\_ARCH\_PLAN v5**
 
 ```
 
-### knowledges/glossary/rw_b_glosario_code_v_2_20250729.md
+### kns/glossary/rw_b_glosario_code_v_2_20250729.md
 ```markdown
 # 🏛️ [RwB] GLOSARIO CODE — v2 (CORE, 2025‑07‑29)
 > **Máxima jerarquía — Ruleset RWB Universal**. Todo cambio debe reflejarse en el *Diccionario CODE_TRIGGERS v2* y registrarse en `CHG`.  
@@ -704,7 +704,7 @@ Se complementa con el README consolidado, el MasterPlan (MPLN) y el glosario viv
 ```markdown
 # RwB_CHECKLIST_AVANCES_v1_20250730.md
 
-> Checklist incremental de tareas ejecutadas según el Master Plan v3.
+> Checklist incremental de tareas ejecutadas según el Master Plan v4.
 
 - [x] Preparar entorno de ejecución (`pip install` dependencias básicas).
 - [x] Ejecutar scripts de auditoría y mapeo (`class_scan.py`, `mapping.py`).

@@ -1,7 +1,7 @@
-# [RwB] KNOWLEDGES FOLDER — README ACTIVO v1 (2025-07-30)
+# [RwB] KNS FOLDER — README ACTIVO v1 (2025-07-30)
 
 > **STATUS:** `ACTIVO`
-> Unificación README carpeta Knowledges — versión RwB y versión Codex/auxiliar.
+> Unificación README carpeta KNS — versión RwB y versión Codex/auxiliar.
 
 ---
 

@@ -41,7 +41,7 @@ Pasos o comandos para instalación/configuración mínima. Referencia a dependen
 ---
 
 ## Referencias clave
- - [Glosario RwB](../../knowledges/glossary/rw_b_glosario_code_v_0_core.md)
+ - [Glosario RwB](../../kns/glossary/rw_b_glosario_code_v_2_20250729.md)
  - [Naming Template](../naming/rw_b_naming_template_v_1.md)
  - [README_HUMAN_TEMPLATE](./rw_b_readme_human_template_v_0.md)
  - [README_AI_TEMPLATE](./rw_b_readme_ai_template_v_0.md)
