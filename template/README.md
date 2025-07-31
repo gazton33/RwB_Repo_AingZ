@@ -33,7 +33,7 @@ Esta carpeta centraliza **todas las plantillas (templates)** base y extendidas u
 
 ## Referencias
 - [RwB Naming Template](naming/rw_b_naming_template_v_1.md)
-- [Glosario RwB](../knowledges/glossary/rw_b_glosario_code_v_0_core.md)
+ - [Glosario RwB](../kns/glossary/rw_b_glosario_code_v_2_20250729.md)
 
 ---
 

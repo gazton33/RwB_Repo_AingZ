@@ -12,7 +12,7 @@
 | ----------------------------------------------------- | -------------------------------------------------------------------- |
 | `rw_b_glosario_code_v_2_20250729.md`                  | Glosario maestro: jerarquía, naming, roles, features                 |
 | `rw_b_diccionario_code_triggers_v_2_20250729.md`      | Diccionario rápido triggers/prompt/code                              |
-| `rw_b_dir_arch_plan_v_4_20250729.md`                  | Blueprint de directorios & mapping                                   |
+| `dir_arch_plan_v_5_integracion_matrix.md`             | Blueprint de directorios & mapping (v5 Integración Matrix)            |
 | `rw_b_assets_classification_matrix_v_1_20250729.md`   | Matriz 3D Origen×Etapa×Rol                                           |
 | `chglog_main_rwb_v_5_20250730_actv.md`                | Changelog principal consolidado (histórico completo, auto-contenido) |
 | `mpln_master_plan_aingz_rw_b_v_20250730_v_4_activo.md`| MasterPlan arquitectónico ACTIVO                                     |
@@ -20,9 +20,9 @@
 
 ---
 
-## 📦 Estructura del repo (resumen DIR\_ARCH\_PLAN v4)
+## 📦 Estructura del repo (resumen DIR\_ARCH\_PLAN v5)
 
-> **Referencia extendida**: ver `rw_b_dir_arch_plan_v_4_20250729.md`.
+> **Referencia extendida**: ver `dir_arch_plan_v_5_integracion_matrix.md`.
 
 ```
 / (root)
@@ -43,12 +43,12 @@
 
 ## 1. Propósito y contexto
 
-Centraliza referencias, reglas y logs para operar el repo RwB bajo estándar **RwB v2+** con arquitectura blueprint **v4**.
+Centraliza referencias, reglas y logs para operar el repo RwB bajo estándar **RwB v2+** con arquitectura blueprint **v5**.
 
 ## 2. Reglas y metodología de operación *(heredadas de v2)*
 
 - Seguir glosario core y plantilla de naming.
-- Utilizar DirArchPlan v4 y workflows activos.
+- Utilizar DirArchPlan v5 y workflows activos.
 - Registrar **todo** movimiento en changelog y logs de carpeta.
 - Aplicar checklist de cobertura y QA antes de integrar.
 - No borrar outputs legacy sin respaldo y log.
@@ -83,7 +83,7 @@ Revisa `WF_INICIO_REPO_CHECK` antes de cada sesión.
 ## ⚙️ Workflows y recomendaciones clave
 
 - Dictado por voz, tuning y training IA → `/KNS/TL` o `/TMP`.
-- Validar rutas con DirArchPlan v4 antes de mover/consolidar.
+- Validar rutas con DirArchPlan v5 antes de mover/consolidar.
 - Mantener changelog maestro (`chglog_main_rwb_v_5_20250730_actv.md`) actualizado.
 
 ---
