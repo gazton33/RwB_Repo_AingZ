@@ -12,6 +12,7 @@
 - Refactor integral del presente **CHGLOG** con copiado literal de versiones previas (v2 y v4).
 - Re‑alineación de referencias al blueprint DirArchPlan v4, glosario v2, diccionario v2 y Matrix v1.
 - Checklist QA añadido al workflow `WF_CONS_ACTV`.
+- Añadido `README.md` en la raíz (copia literal de `readme_rw_b_repo_main_v_5_20250730_activo.md`).
 
 ---
 
