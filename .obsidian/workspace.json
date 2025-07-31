@@ -11,10 +11,14 @@
             "id": "d11cf11cdc2c6ea0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "desarrollo/plan_propuesta_reestructura_v5_20240814.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "plan_propuesta_reestructura_v5_20240814"
             }
           }
         ]
