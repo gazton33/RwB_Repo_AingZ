@@ -9,7 +9,7 @@ Repositorio de workflows operativos: auditoría, dictado, relevamientos y migrac
 - `rw_b_wf_dictado_v_1.md`
 - `rw_b_wf_relev_hilo_assets_v_1_20250729.md`
 - `rw_b_wf_relevamiento_ideas_actv_v_1_20250725.md`
-- `wf_cons_actv_transcripcion_raw_v_3_20250725.md`
+- `wf_cons_actv_transcripcion_raw_v_4_20250730_draft.md`
 - `wf_migracion_final_legacy_rw_b_v_1_20250725.md`
 - `wk_feedtrn_eval_actv_raw_v_2_20250725.md`
 

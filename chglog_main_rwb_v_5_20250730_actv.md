@@ -46,6 +46,11 @@
 ### Workflow de inicio (31‑07‑2025)
 - Creado `WF_INICIO_REPO_CHECK` y agregado código `WF_INIT` al glosario/diccionario【18†L23-L26】.
 
+### Correcciones menores (31‑07‑2025)
+- WF/README actualiza referencia a `wf_cons_actv_transcripcion_raw_v_4_20250730_draft.md`.
+- Auditoría de cierre y relevamiento de ideas apuntan al glosario v2.
+- `WF_INICIO_REPO_CHECK` refiere ahora al changelog `chglog_main_rwb_v_5_20250730_actv.md`.
+
 ---
 
 ## 2025-07-25 — Release v2

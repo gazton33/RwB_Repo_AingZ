@@ -8,7 +8,7 @@ Definir el procedimiento formal para auditar y documentar el cierre de ciclo/hil
 ---
 
 ## 2. Archivos y rutas requeridas
-- Glosario: `rw_b_glosario_code_v_1_core.md`
+- Glosario: `rw_b_glosario_code_v_2_20250729.md`
 - Workflow central: `wk_feedtrn_eval_actv_raw_v_2_20250725.md`
 - Relevamiento ideas: `rw_b_wf_relevamiento_ideas_actv_v_1_20250725.md`
 
@@ -26,7 +26,7 @@ Definir el procedimiento formal para auditar y documentar el cierre de ciclo/hil
 ```
 # Cierre de ciclo — Ejemplo
 - Lessons learned: “La tabla de outputs y la checklist batch permiten validar cobertura total del hilo.”
-- Mapping: [`WK_FEEDTRN_EVAL_ACTV_RAW_V2_20250725.md`, `rw_b_glosario_code_v_1_core.md`]
+- Mapping: [`WK_FEEDTRN_EVAL_ACTV_RAW_V2_20250725.md`, `rw_b_glosario_code_v_2_20250729.md`]
 - Checklist:
     - [x] Lessons learned documentadas
     - [x] Mapping de outputs actualizado
