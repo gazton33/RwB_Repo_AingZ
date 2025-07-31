@@ -192,7 +192,7 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ---
 
 ## 🔝 Pilares de la evolución actual (v3)
-1. **Alineación absoluta a blueprint de directorios**: todos los activos deben estar ubicados y nombrados según [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v4_20250729.md).
+1. **Alineación absoluta a blueprint de directorios**: todos los activos deben estar ubicados y nombrados según [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v_4_20250729.md).
 2. **Glosario y Diccionario CODE v2**: máxima jerarquía en naming, roles, features IA y prompts.
 3. **Matriz de clasificación de assets**: codificación `SRC·STG·ROLE` y rutas de consolidación.
 4. **Buckets y workflows nuevos**: `/KNS/TL`, `/AUDIT_LIGHT`, `/TMP`, `/MIG`, `/PURGATORIO/LEGACY`, dictado por voz, training/tuning IA y migración literal.
@@ -230,8 +230,8 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](
 ## 📝 Referencias y enlaces clave
 - [Glosario CODE v2](rw_b_glosario_code_v_2_20250729.md)
 - [Diccionario CODE_TRIGGERS v2](rw_b_diccionario_code_triggers_v_2_20250729.md)
-- [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v4_20250729.md)
-- [Assets Classification Matrix v1](rw_b_assets_classification_matrix_v1_20250729.md)
+- [DIR_ARCH_PLAN v4](rw_b_dir_arch_plan_v_4_20250729.md)
+- [Assets Classification Matrix v1](rw_b_assets_classification_matrix_v_1_20250729.md)
 - [CHGLOG_MAIN_RWB v4](chglog_main_rwb_v4_20250729.md)
 - [ONBRD_WELCOME](onbrd_welcome_onboarding_gz_rw_b_v_20250725.md)
 
