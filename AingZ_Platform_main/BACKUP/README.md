@@ -8,6 +8,13 @@
 ## 1. Resumen
 Espacio de respaldo temporal previo a consolidación.
 
+### Enlaces clave
+- [CORE](../core/)
+- [BACKUP intermedio](../backup/)
+- [BACKUP final](./)
+
+> **Nota:** El contenido de este directorio puede ser eliminado de forma definitiva una vez confirmado el respaldo final.
+
 ## 2. Snapshots / Contexto
 - Carpeta de snapshots relacionada: `[./SNAPSHOTS/]` (ajustar si aplica)
 - Enlaces a versiones relevantes o backups IA: `[./SNAPSHOTS_CTX/]` (opcional)
