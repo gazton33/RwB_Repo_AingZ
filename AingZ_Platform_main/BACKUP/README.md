@@ -8,13 +8,6 @@
 ## 1. Resumen
 Espacio de respaldo temporal previo a consolidación.
 
-### Enlaces clave
-- [CORE](../core/)
-- [BACKUP intermedio](../backup/)
-- [BACKUP final](./)
-
-> **Nota:** El contenido de este directorio puede ser eliminado de forma definitiva una vez confirmado el respaldo final.
-
 ## 2. Snapshots / Contexto
 - Carpeta de snapshots relacionada: `[./SNAPSHOTS/]` (ajustar si aplica)
 - Enlaces a versiones relevantes o backups IA: `[./SNAPSHOTS_CTX/]` (opcional)
@@ -48,6 +41,11 @@ Describe los pasos clave del ciclo de vida para los archivos de este bucket:
 4. **Backup / Eliminación:** `[../WF/wf_backup_backup.md]`
 
 Ajustar enlaces de acuerdo al pipeline oficial y etapas de `LEGACY→TMP→MIG→CORE→BACKUP`.
+
+## 6. Etapas previas y finales
+- [CORE](../core/)
+- [BACKUP](./)
+- [BACKUP final](../BACKUP/)
 
 ---
 
