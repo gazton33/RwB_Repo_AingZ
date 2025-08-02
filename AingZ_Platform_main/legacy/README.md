@@ -38,10 +38,10 @@ legacy/
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)
 Describe los pasos clave del ciclo de vida para los archivos de este bucket:
-1. **Ingreso / LEGACY o TMP:** `[../WF/wf_ingreso_legacy.md]`
-2. **Staging / MIG:** `[../WF/wf_staging_legacy.md]`
-3. **Consolidación / CORE:** `[../WF/wf_consolidacion_legacy.md]`
-4. **Backup / Eliminación:** `[../WF/wf_backup_legacy.md]`
+1. **Ingreso / [LEGACY](./) o [TMP](../tmp_staging/):** `[../WF/wf_ingreso_legacy.md]`
+2. **Staging / [MIG](../mig/):** `[../WF/wf_staging_legacy.md]`
+3. **Consolidación / [CORE](../core/):** `[../WF/wf_consolidacion_legacy.md]`
+4. **Backup / Eliminación / [BACKUP](../backup/) o [BACKUP final](../BACKUP/):** `[../WF/wf_backup_legacy.md]`
 
 Ajustar enlaces de acuerdo al pipeline oficial y etapas de `LEGACY→TMP→MIG→CORE→BACKUP`.
 

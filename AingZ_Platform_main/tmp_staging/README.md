@@ -38,10 +38,10 @@ tmp_staging/
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)
 Describe los pasos clave del ciclo de vida para los archivos de este bucket:
-1. **Ingreso / LEGACY o TMP:** `[../WF/wf_ingreso_tmp_staging.md]`
-2. **Staging / MIG:** `[../WF/wf_staging_tmp_staging.md]`
-3. **Consolidación / CORE:** `[../WF/wf_consolidacion_tmp_staging.md]`
-4. **Backup / Eliminación:** `[../WF/wf_backup_tmp_staging.md]`
+1. **Ingreso / LEGACY o TMP:** `[../WF/wf_ingreso_tmp_staging.md]` — [LEGACY](../legacy/), [TMP_STAGING](./)
+2. **Staging / MIG:** `[../WF/wf_staging_tmp_staging.md]` — [MIG](../mig/)
+3. **Consolidación / CORE:** `[../WF/wf_consolidacion_tmp_staging.md]` — [CORE](../core/)
+4. **Backup / Eliminación:** `[../WF/wf_backup_tmp_staging.md]` — [BACKUP](../backup/) / [BACKUP final](../BACKUP/)
 
 Ajustar enlaces de acuerdo al pipeline oficial y etapas de `LEGACY→TMP→MIG→CORE→BACKUP`.
 
