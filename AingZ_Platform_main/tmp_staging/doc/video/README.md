@@ -14,7 +14,7 @@ Descripción pendiente.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [../audio/], [../image/], [../library/], [../library_ext/], [../onbrd/], [../template/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_video.md]`, `[../PIPELINES/pipeline_video.md]`
@@ -25,6 +25,12 @@ AingZ_Platform_main/
 └── tmp_staging/
     └── doc/
         └── video/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+video/
+└── (sin subdirectorios)
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

@@ -14,7 +14,7 @@ Integraciones y conectores con sistemas externos.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [../BACKUP/], [../apps/], [../backup/], [../core/], [../infra/], [../legacy/], [../log/], [../mig/], [../packages/], [../scripts/], [../tmp_staging/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_conectors.md]`, `[../PIPELINES/pipeline_conectors.md]`
@@ -23,6 +23,12 @@ Integraciones y conectores con sistemas externos.
 ```text
 AingZ_Platform_main/
 └── conectors/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+conectors/
+└── (sin subdirectorios)
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)
