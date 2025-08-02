@@ -14,7 +14,7 @@ Descripción pendiente.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[../EXT/]`, `[../INT/]`
+- **Referencias laterales:** [../EXT/], [../INT/]
 - **Buckets destino típicos:** `[../../PURGATORIO/AI/]`, `[../../CORE/]`
 - **Crossref central:** `[Mapa Global](../../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../../WF/pipeline_backup_ai.md]`, `[../../PIPELINES/pipeline_backup_ai.md]`
@@ -24,6 +24,12 @@ Descripción pendiente.
 AingZ_Platform_main/
 └── BACKUP/
     └── AI/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+AI/
+└── (sin subdirectorios)
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

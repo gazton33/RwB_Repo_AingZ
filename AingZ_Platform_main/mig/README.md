@@ -14,7 +14,7 @@ Procesos y scripts de migración.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [../BACKUP/], [../apps/], [../backup/], [../conectors/], [../core/], [../infra/], [../legacy/], [../log/], [../packages/], [../scripts/], [../tmp_staging/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_mig.md]`, `[../PIPELINES/pipeline_mig.md]`
@@ -23,6 +23,17 @@ Procesos y scripts de migración.
 ```text
 AingZ_Platform_main/
 └── mig/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+mig/
+├── data/
+├── doc/
+├── kns/
+├── log/
+├── scr/
+└── wf/
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

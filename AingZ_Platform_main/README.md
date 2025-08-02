@@ -14,7 +14,7 @@ Bucket raíz que organiza los módulos principales de la plataforma.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [./BACKUP/], [./apps/], [./backup/], [./conectors/], [./core/], [./infra/], [./legacy/], [./log/], [./mig/], [./packages/], [./scripts/], [./tmp_staging/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_AingZ_Platform_main.md]`, `[../PIPELINES/pipeline_AingZ_Platform_main.md]`
@@ -22,6 +22,23 @@ Bucket raíz que organiza los módulos principales de la plataforma.
 ## 4. Precedencia en el Árbol de Directorios
 ```text
 AingZ_Platform_main/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+AingZ_Platform_main/
+├── BACKUP/
+├── apps/
+├── backup/
+├── conectors/
+├── core/
+├── infra/
+├── legacy/
+├── log/
+├── mig/
+├── packages/
+├── scripts/
+└── tmp_staging/
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

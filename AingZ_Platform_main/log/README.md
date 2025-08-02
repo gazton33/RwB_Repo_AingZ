@@ -14,7 +14,7 @@ Registros y bitácoras operativas.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [../BACKUP/], [../apps/], [../backup/], [../conectors/], [../core/], [../infra/], [../legacy/], [../mig/], [../packages/], [../scripts/], [../tmp_staging/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_log.md]`, `[../PIPELINES/pipeline_log.md]`
@@ -23,6 +23,14 @@ Registros y bitácoras operativas.
 ```text
 AingZ_Platform_main/
 └── log/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+log/
+├── bitacoras/
+├── changlog/
+└── trazabilidad total/
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

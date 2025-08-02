@@ -14,7 +14,7 @@ Espacio de respaldo temporal previo a consolidación.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [../BACKUP/], [../apps/], [../conectors/], [../core/], [../infra/], [../legacy/], [../log/], [../mig/], [../packages/], [../scripts/], [../tmp_staging/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_backup.md]`, `[../PIPELINES/pipeline_backup.md]`
@@ -23,6 +23,14 @@ Espacio de respaldo temporal previo a consolidación.
 ```text
 AingZ_Platform_main/
 └── backup/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+backup/
+├── AI/
+├── EXT/
+└── INT/
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

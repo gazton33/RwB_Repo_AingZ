@@ -14,7 +14,7 @@ Repositorio definitivo de backups consolidados.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./INT/]`, `[./EXT/]`, `[./AI/]`
+- **Referencias laterales:** [../apps/], [../backup/], [../conectors/], [../core/], [../infra/], [../legacy/], [../log/], [../mig/], [../packages/], [../scripts/], [../tmp_staging/]
 - **Buckets destino típicos:** `[../PURGATORIO/]`, `[../CORE/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_backup.md]`, `[../PIPELINES/pipeline_backup.md]`
@@ -23,6 +23,14 @@ Repositorio definitivo de backups consolidados.
 ```text
 AingZ_Platform_main/
 └── BACKUP/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+BACKUP/
+├── AI/
+├── EXT/
+└── INT/
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)

@@ -14,7 +14,7 @@ Descripción pendiente.
 
 ## 3. Crossref y Mapping
 - **Referencia ascendente:** `[../]`
-- **Referencias laterales:** `[./BUCKET_LATERAL1/]`, `[./BUCKET_LATERAL2/]`
+- **Referencias laterales:** [../changlog/], [../trazabilidad total/]
 - **Buckets destino típicos:** `[../DESTINO/]`
 - **Crossref central:** `[Mapa Global](../DOC/MPLN/crossref_global.md)`
 - **Flujos/Pipelines relevantes:** `[../WF/pipeline_bitacoras.md]`, `[../PIPELINES/pipeline_bitacoras.md]`
@@ -24,6 +24,12 @@ Descripción pendiente.
 AingZ_Platform_main/
 └── log/
     └── bitacoras/
+```
+
+## 4.1 Procedencia en el Árbol de Directorios
+```text
+bitacoras/
+└── (sin subdirectorios)
 ```
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)
