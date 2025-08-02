@@ -16,7 +16,7 @@ Descripción pendiente.
 - **Referencia ascendente:** `[../]`
 - **Referencias laterales:** `[../AI/]`, `[../EXT/]`
 - **Buckets destino típicos:** `[../../PURGATORIO/INT/]`, `[../../CORE/]`
-- **Crossref central:** `[Mapa Global](../../DOC/MPLN/crossref_global.md)`
+- **Crossref central:** `[Mapa Global](../../../desarrollo/aingz_platform/crossref_mapping_buckets_aingz_platform_v_1_20250731.md)`
 - **Flujos/Pipelines relevantes:** `[../../WF/pipeline_backup_int.md]`, `[../../PIPELINES/pipeline_backup_int.md]`
 
 ## 4. Precedencia en el Árbol de Directorios
