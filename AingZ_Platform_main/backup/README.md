@@ -42,6 +42,11 @@ Describe los pasos clave del ciclo de vida para los archivos de este bucket:
 
 Ajustar enlaces de acuerdo al pipeline oficial y etapas de `LEGACY→TMP→MIG→CORE→BACKUP`.
 
+## 6. Etapas previas y finales
+- [CORE](../core/)
+- [BACKUP](./)
+- [BACKUP final](../BACKUP/)
+
 ---
 
 Completar todos los campos con links activos una vez creada la estructura real.
