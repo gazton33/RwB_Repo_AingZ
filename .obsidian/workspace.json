@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "desarrollo/repo_monorepo_packages_blueprint_v1_20250731.md",
+                "file": "kns/readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "repo_monorepo_packages_blueprint_v1_20250731"
+              "title": "readme"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "f848422f4c240062",
   "lastOpenFiles": [
+    "README.md",
     "wf/wk_feedtrn_eval_actv_raw_v_2_20250725.md",
     "kns/glossary/rw_b_glosario_code_v_2_20250729.md",
     "kns/glossary/rw_b_glossary_rdm_v_0.md",
@@ -199,7 +200,6 @@
     "desarrollo/directorio_activos_desarrollo_staging.md",
     "desarrollo/barrido_literal_redefinicion_legacy.md",
     "desarrollo/idea_brainstorm_limites_ctx_tokens_md.md",
-    "desarrollo/dir_arch_plan_v_5_integracion_matrix.md",
     "desarrollo",
     "Nueva carpeta",
     "purgatorio",
