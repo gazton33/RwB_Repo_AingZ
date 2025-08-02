@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AingZ_Platform_main/mig/log/bitacoras/README_bucket_template - copia.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README_bucket_template - copia"
+              "title": "README"
             }
           }
         ]
@@ -170,6 +170,8 @@
   },
   "active": "f848422f4c240062",
   "lastOpenFiles": [
+    "AingZ_Platform_main/README.md",
+    "AingZ_Platform_main/mig/log/bitacoras/README_bucket_template - copia.md",
     "kns/readme.md",
     "AingZ_Platform_main/README_bucket_template.md",
     "README.md",
@@ -198,8 +200,6 @@
     "desarrollo/barrido_literal_ctx_vivo_y_feedback_aprendizaje.md",
     "desarrollo/readme_legacy_core_rw_b.md",
     "desarrollo/politica_cierre_eliminacion_purgatorio.md",
-    "desarrollo/directorio_activos_desarrollo_staging.md",
-    "desarrollo/barrido_literal_redefinicion_legacy.md",
     "desarrollo",
     "Nueva carpeta",
     "purgatorio",
