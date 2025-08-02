@@ -38,6 +38,12 @@ mig/
 
 ## 5. Pipeline y Workflows (Ciclo de Vida)
 Describe los pasos clave del ciclo de vida para los archivos de este bucket:
+- [LEGACY](../legacy/)
+- [TMP_STAGING](../tmp_staging/)
+- [MIG](./)
+- [CORE](../core/)
+- [BACKUP](../backup/) / [BACKUP final](../BACKUP/)
+
 1. **Ingreso / LEGACY o TMP:** `[../WF/wf_ingreso_mig.md]`
 2. **Staging / MIG:** `[../WF/wf_staging_mig.md]`
 3. **Consolidación / CORE:** `[../WF/wf_consolidacion_mig.md]`
